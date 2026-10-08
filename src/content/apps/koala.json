@@ -1,0 +1,104 @@
+{
+  "name": "Koala",
+  "date": "2026-10-08",
+  "screenshots": 7,
+  "testflight": "https://testflight.apple.com/join/UkyRSGuX",
+  "languages": {
+    "en": {
+      "language": "English",
+      "tagline": "One BJJ goal at a time",
+      "pitch": "Pick one goal: a submission, a takedown, an escape. Go for it every time you roll. After class, tell Koala if it worked. That’s the whole app",
+      "free": "Koala is free, and always will be. No account, no tracking",
+      "comingSoon": "Coming soon to the App Store and Google Play",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact",
+      "screenshot": "Koala, screenshot {n} of {total}",
+      "beta": "Try the beta",
+      "iphone": {
+        "steps": [
+          "Get TestFlight, Apple’s app for trying apps before they come out",
+          "Open this page on your iPhone and tap Join the beta",
+          "Tap Accept, then Install"
+        ],
+        "join": "Join the beta",
+        "getTestFlight": "Get TestFlight",
+        "note": "If TestFlight says the beta isn’t open yet, try again tomorrow"
+      },
+      "android": {
+        "steps": [
+          "Email me the address you use for Google Play",
+          "I’ll add you to the beta and send you a link as soon as it’s ready",
+          "Open the link on your phone and install Koala from Google Play"
+        ],
+        "send": "Email me",
+        "subject": "Koala beta on Android",
+        "body": "Hi David, I’d like to try Koala on Android. The address I use for Google Play is: "
+      }
+    },
+    "es": {
+      "language": "Español",
+      "tagline": "Tus objetivos de BJJ, de uno en uno",
+      "pitch": "Elige un objetivo: una finalización, un derribo, un escape. Intenta sacarlo cada vez que ruedes. Después de clase, dile a Koala si te ha salido. Esa es toda la app",
+      "free": "Koala es gratis, y siempre lo será. Sin cuenta y sin rastreo",
+      "comingSoon": "Muy pronto en el App Store y en Google Play",
+      "privacy": "Política de privacidad",
+      "terms": "Condiciones del servicio",
+      "contact": "Contacto",
+      "screenshot": "Koala, captura {n} de {total}",
+      "beta": "Prueba la beta",
+      "iphone": {
+        "steps": [
+          "Descarga TestFlight, la app de Apple para probar apps antes de que salgan",
+          "Abre esta página en tu iPhone y toca Unirme a la beta",
+          "Toca Aceptar y luego Instalar"
+        ],
+        "join": "Unirme a la beta",
+        "getTestFlight": "Descargar TestFlight",
+        "note": "Si TestFlight dice que la beta aún no está abierta, vuelve a probar mañana"
+      },
+      "android": {
+        "steps": [
+          "Escríbeme y dime qué correo usas en Google Play",
+          "Te añado a la beta y te mando un enlace en cuanto esté lista",
+          "Abre el enlace en tu móvil e instala Koala desde Google Play"
+        ],
+        "send": "Escríbeme",
+        "subject": "Beta de Koala en Android",
+        "body": "Hola, David. Me gustaría probar Koala en Android. El correo que uso en Google Play es: "
+      }
+    },
+    "pt": {
+      "language": "Português",
+      "tagline": "Uma meta de jiu-jitsu de cada vez",
+      "pitch": "Escolha uma meta: uma finalização, uma queda, uma saída. Vá atrás dela toda vez que rolar. Depois do treino, conte para o Koala se deu certo. O app é só isso",
+      "free": "O Koala é gratuito, e sempre vai ser. Sem conta, sem rastreamento",
+      "comingSoon": "Em breve na App Store e no Google Play",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "contact": "Contato",
+      "screenshot": "Koala, captura {n} de {total}",
+      "beta": "Teste o beta",
+      "iphone": {
+        "steps": [
+          "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento",
+          "Abra esta página no seu iPhone e toque em Participar do beta",
+          "Toque em Aceitar e depois em Instalar"
+        ],
+        "join": "Participar do beta",
+        "getTestFlight": "Baixar o TestFlight",
+        "note": "Se o TestFlight disser que o beta ainda não abriu, tente de novo amanhã"
+      },
+      "android": {
+        "steps": [
+          "Me escreva dizendo qual e-mail você usa no Google Play",
+          "Eu te adiciono ao beta e mando um link assim que estiver pronto",
+          "Abra o link no celular e instale o Koala pelo Google Play"
+        ],
+        "send": "Me escreva",
+        "subject": "Beta do Koala no Android",
+        "body": "Oi, David. Quero testar o Koala no Android. O e-mail que eu uso no Google Play é: "
+      }
+    }
+  }
+}

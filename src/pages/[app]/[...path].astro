@@ -1,0 +1,220 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { SITE } from "@consts";
+
+// Every app has a landing page, a Privacy Policy and Terms of Service, each in
+// its languages: `/koala/`, `/koala/privacy/`, `/koala/es/`, `/koala/es/privacy/`.
+export async function getStaticPaths() {
+  const apps = await getCollection("apps");
+  const legal = await getCollection("legal");
+  return apps.flatMap((app) => {
+    const [first] = Object.keys(app.data.languages);
+    return Object.keys(app.data.languages).flatMap((lang) => {
+      const folder = lang === first ? "" : `${lang}/`;
+      const pages = legal.filter((page) => page.slug.startsWith(`${app.id}/${lang}/`));
+      return [
+        { params: { app: app.id, path: folder.slice(0, -1) || undefined }, props: { app, lang } },
+        ...pages.map((page) => ({
+          params: { app: app.id, path: folder + page.slug.split("/")[2] },
+          props: { app, lang, page },
+        })),
+      ];
+    });
+  });
+}
+
+type Props = {
+  app: CollectionEntry<"apps">;
+  lang: string;
+  page?: CollectionEntry<"legal">;
+};
+
+const { app, lang, page } = Astro.props;
+const { name, screenshots, testflight, languages } = app.data;
+const texts = languages[lang];
+const [first] = Object.keys(languages);
+
+const home = (code: string) => `/${app.id}/${code === first ? "" : `${code}/`}`;
+const here = home(lang);
+const assets = `/apps/${app.id}`;
+const mail = `mailto:${SITE.EMAIL}?subject=${encodeURIComponent(texts.android.subject)}&body=${encodeURIComponent(texts.android.body)}`;
+const Content = page && (await page.render()).Content;
+
+const button = "inline-block rounded-full px-5 py-3 text-sm font-semibold transition-colors duration-300 ease-in-out";
+const loud = "bg-black text-white hover:bg-black/75 dark:bg-white dark:text-black dark:hover:bg-white/75";
+const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/15";
+---
+
+<PageLayout
+  title={page ? `${page.data.title} · ${name}` : `${name}: ${texts.tagline}`}
+  description={page ? page.data.title : texts.pitch}
+  lang={lang}
+  image={`${assets}/share.jpg`}
+>
+  <link slot="head" rel="apple-touch-icon" href={`${assets}/apple-touch-icon.png`} />
+
+  {page && Content ? (
+    <Container>
+      <a href={here} class="animate inline-block -ml-1.5" aria-label={name}>
+        <img src={`${assets}/icon.png`} alt="" width="48" height="48" />
+      </a>
+      <div class="space-y-1 my-10">
+        <div class="animate text-sm">{page.data.updated}</div>
+        <h1 class="animate text-2xl font-semibold text-black dark:text-white">{page.data.title}</h1>
+      </div>
+      <article class="animate">
+        <Content />
+      </article>
+    </Container>
+  ) : (
+    <Fragment>
+    <Container>
+      <div class="space-y-4">
+        <img class="animate -ml-3" src={`${assets}/icon.png`} alt="" width="112" height="112" />
+        <div class="animate text-sm font-semibold">{name}</div>
+        <h1 class="animate text-4xl font-semibold tracking-tight text-black dark:text-white text-balance">
+          {texts.tagline}
+        </h1>
+        <p class="animate font-serif text-lg text-balance">{texts.pitch}</p>
+        <p class="animate text-sm">{texts.free}</p>
+      </div>
+    </Container>
+
+    <div class="animate gallery">
+      {Array.from({ length: screenshots }, (_, index) => (
+        <img
+          src={`${assets}/screenshots/${lang}/${String(index + 1).padStart(2, "0")}.jpg`}
+          alt={texts.screenshot.replace("{n}", String(index + 1)).replace("{total}", String(screenshots))}
+          width="660"
+          height="1434"
+          loading="lazy"
+        />
+      ))}
+    </div>
+
+    <Container>
+      <div class="space-y-4">
+        {/* How to get the beta, in one card like the app's own: the phone picks its side, and the reader can switch. */}
+        <section class="animate beta rounded-[1.625rem] bg-white dark:bg-stone-800 p-5 space-y-4">
+          {testflight && <input type="radio" name="phone" id="beta-iphone" class="sr-only" checked />}
+          {testflight && <input type="radio" name="phone" id="beta-android" class="sr-only" />}
+          <div class="phones flex flex-wrap items-baseline justify-between gap-x-4">
+            <h2 class="text-lg font-semibold text-black dark:text-white">{texts.beta}</h2>
+            {testflight && (
+              <div class="flex gap-1 text-sm">
+                <label for="beta-iphone">iPhone</label>
+                <span>/</span>
+                <label for="beta-android">Android</label>
+              </div>
+            )}
+          </div>
+          {testflight && (
+            <Fragment>
+              <div class="iphone space-y-4">
+                <ol class="list-decimal pl-5 space-y-1">
+                  {texts.iphone.steps.map((step) => <li>{step}</li>)}
+                </ol>
+                <div class="flex flex-wrap gap-2">
+                  <a class:list={[button, loud]} href={testflight}>{texts.iphone.join}</a>
+                  <a class:list={[button, quiet]} href="https://apps.apple.com/app/testflight/id899247664">
+                    {texts.iphone.getTestFlight}
+                  </a>
+                </div>
+                <p class="text-sm">{texts.iphone.note}</p>
+              </div>
+            </Fragment>
+          )}
+          <div class="android space-y-4">
+            <ol class="list-decimal pl-5 space-y-1">
+              {texts.android.steps.map((step) => <li>{step}</li>)}
+            </ol>
+            <a class:list={[button, loud]} href={mail}>{texts.android.send}</a>
+          </div>
+        </section>
+        <script is:inline>
+          if (/android/i.test(navigator.userAgent)) document.getElementById("beta-android")?.click();
+        </script>
+        <p class="animate text-sm">{texts.comingSoon}</p>
+      </div>
+    </Container>
+    </Fragment>
+  )}
+
+  <Container>
+    <nav class="animate mt-16 space-y-2 text-sm">
+      <div class="flex flex-wrap gap-x-4 gap-y-1">
+        <Link href={`${here}privacy/`}>{texts.privacy}</Link>
+        <Link href={`${here}terms/`}>{texts.terms}</Link>
+        <Link href={`mailto:${SITE.EMAIL}`}>{texts.contact}</Link>
+      </div>
+      <div class="flex flex-wrap gap-1">
+        {Object.entries(languages).map(([code, other], index) => (
+          <>
+            {index > 0 && <span>/</span>}
+            {code === lang ? (
+              <span class="text-black dark:text-white" aria-current="true">{other.language}</span>
+            ) : (
+              <Link href={home(code)} lang={code}>{other.language}</Link>
+            )}
+          </>
+        ))}
+      </div>
+    </nav>
+  </Container>
+</PageLayout>
+
+<style>
+  /* The switch between the two phones: two hidden radio buttons, no script. */
+  /* They read like the site's other links: the phone shown is plain, the other one is underlined. */
+  .phones label {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: rgba(0, 0, 0, 0.15);
+  }
+  :global(.dark) .phones label {
+    text-decoration-color: rgba(255, 255, 255, 0.3);
+  }
+  #beta-iphone:checked ~ .phones label[for="beta-iphone"],
+  #beta-android:checked ~ .phones label[for="beta-android"] {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+  }
+  :global(.dark) #beta-iphone:checked ~ .phones label[for="beta-iphone"],
+  :global(.dark) #beta-android:checked ~ .phones label[for="beta-android"] {
+    color: white;
+  }
+  .beta input:focus-visible ~ .phones label {
+    outline: 1px dotted currentColor;
+    outline-offset: 2px;
+  }
+  #beta-iphone:checked ~ .android,
+  #beta-android:checked ~ .iphone {
+    display: none;
+  }
+  /* The store screenshots, in a row that scrolls sideways past the column.
+     The room above and below is for their shadows. */
+  .gallery {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 2.5rem max(1.25rem, calc((100vw - 40rem) / 2 + 1.25rem)) 3.5rem;
+  }
+  .gallery::-webkit-scrollbar {
+    display: none;
+  }
+  .gallery img {
+    flex: none;
+    width: 15rem;
+    height: auto;
+    border-radius: 1.5rem;
+    scroll-snap-align: center;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.14);
+  }
+</style>
