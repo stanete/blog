@@ -10,7 +10,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "David Stanete is a product minded engineering leader. In his spare time he makes free apps that do one thing well.",
+  DESCRIPTION: "David Stanete is a product minded engineering leader. Occasionally he makes free apps that do one thing well.",
 };
 
 export const BLOG: Metadata = {
