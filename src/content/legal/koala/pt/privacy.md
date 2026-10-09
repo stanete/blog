@@ -1,6 +1,6 @@
 ---
 title: "Política de Privacidade"
-updated: "Última atualização: 8 de outubro de 2026"
+updated: "Última atualização: 9 de outubro de 2026"
 ---
 
 O Koala é um app gratuito feito por David Stanete, um desenvolvedor independente com sede na Espanha (“eu”). Esta política explica o que acontece com as suas informações quando você usa o Koala.
@@ -13,11 +13,11 @@ Suas metas, os treinos que você registra, sua faixa, os dias e o horário dos s
 
 ## Sincronização com o iCloud
 
-Se a sincronização com o iCloud estiver ativada (ela vem ativada quando você está conectado ao iCloud), o Koala mantém uma cópia dessas informações no seu armazenamento privado do iCloud, para que elas voltem se você reinstalar o Koala ou trocar de iPhone. Ela fica na sua própria conta do iCloud, sob a política de privacidade da Apple. Eu não consigo ver nem acessar essa cópia. Você pode desativar a sincronização com o iCloud nos Ajustes do Koala quando quiser.
+Se a sincronização com o iCloud estiver ativada (ela vem ativada quando você usa o iCloud no aparelho), o Koala mantém uma cópia dessas informações no seu armazenamento privado do iCloud, para que elas voltem se você reinstalar o Koala ou trocar de iPhone. Ela fica na sua própria conta do iCloud, sob a política de privacidade da Apple. Eu não consigo ver nem acessar essa cópia. Você pode desativar a sincronização com o iCloud nos Ajustes do Koala quando quiser.
 
 ## O que o Koala não faz
 
-O Koala não tem servidores próprios nem usa serviços de análise, de publicidade ou de relatórios de falhas. Ele não rastreia você em outros apps ou sites. Não acessa sua localização, seus contatos nem sua câmera. Nunca lê suas fotos: só adiciona a elas o cartão da sua meta quando você toca em Salvar em Fotos. Só lê o Apple Health se você ativar, para o sono ou para uma meta de peso. Não vende, não aluga e não compartilha dados, porque não tem nenhum para compartilhar.
+O Koala não tem servidores próprios nem usa serviços de análise, de publicidade ou de relatórios de falhas. Ele não rastreia você em outros apps ou sites. Não acessa sua localização, seus contatos nem sua câmera. Nunca lê suas fotos: só adiciona a elas a imagem da sua meta quando você toca em “Salvar em Fotos”. Só lê o Apple Health se você ativar, para o sono ou para uma meta de peso. Não vende, não aluga e não compartilha dados, porque não tem nenhum para compartilhar.
 
 ## Lembretes
 
@@ -25,15 +25,15 @@ Os lembretes são agendados no seu aparelho com as notificações locais do sist
 
 ## Apple Health (opcional)
 
-Se você ativar o Apple Health, o Koala pede sua permissão para ler quanto você dorme, e mostra isso no Início. Se você também adicionar uma meta de peso a um campeonato, ele pede para ler seu peso corporal. Ele lê só esses dados e nunca escreve no Saúde. No Android, o Koala faz o mesmo com o Health Connect. As leituras ficam no seu aparelho (e no seu próprio iCloud com o resto dos seus dados, se a sincronização com o iCloud estiver ativada). Elas nunca são enviadas para mim nem para ninguém, e não são usadas para publicidade ou análise. Você pode desativar o Apple Health no Koala, ou revogar o acesso nos ajustes do Saúde no seu iPhone.
+Se você ativar o Apple Health, o Koala pede sua permissão para ler quanto você dorme, e mostra isso no Início. Se você também adicionar uma meta de peso a um campeonato, ele pede para ler seu peso corporal. Ele lê só esses dados e nunca escreve no Apple Health. No Android, o Koala faz o mesmo com o Health Connect. As leituras ficam no seu aparelho (e no seu próprio iCloud com o resto dos seus dados, se a sincronização com o iCloud estiver ativada). Elas nunca são enviadas para mim nem para ninguém, e não são usadas para publicidade ou análise. Você pode desativar o Apple Health no Koala, ou revogar o acesso nos ajustes do Saúde no seu iPhone.
 
 ## Compartilhar uma meta
 
-Quando você toca em Instagram na tela de compartilhar, o Koala cria no seu aparelho uma imagem do cartão da sua meta e entrega para o Instagram. Quando você toca em Salvar em Fotos, ele adiciona essa imagem às suas fotos; o Koala pede permissão antes, e só para adicionar, nunca para ler. Nada é compartilhado nem salvo se você não tocar. Depois de compartilhado, vale a política de privacidade desse app (por exemplo, a do Instagram).
+Quando você toca em Instagram na tela de compartilhar, o Koala cria no seu aparelho uma imagem da sua meta e entrega para o Instagram. Quando você toca em “Salvar em Fotos”, ele adiciona essa imagem às suas fotos; o Koala pede permissão antes, e só para adicionar, nunca para ler. Nada é compartilhado nem salvo se você não tocar. Depois de compartilhado, vale a política de privacidade desse app (por exemplo, a do Instagram).
 
 ## Exportar e importar seus dados
 
-Exportar meus dados cria um arquivo no seu aparelho e abre o menu de compartilhamento do sistema. Você decide para onde o arquivo vai. Importar dados lê um arquivo que você escolhe no seu aparelho; nada é enviado.
+“Exportar meus dados” cria um arquivo no seu aparelho e abre o menu de compartilhamento do sistema. Você decide para onde o arquivo vai. “Importar dados” lê um arquivo que você escolhe no seu aparelho; nada é enviado.
 
 ## Backups do aparelho
 
@@ -45,7 +45,7 @@ Se você enviar feedback por e-mail, eu recebo seu endereço de e-mail e o que v
 
 ## Apagar seus dados
 
-Ajustes → Apagar todos os dados remove tudo do seu aparelho e do seu iCloud na hora. Apagar o app remove os dados do seu aparelho; a cópia no seu iCloud continua lá até você usar Apagar todos os dados ou removê-la nos ajustes do iCloud do seu iPhone.
+Ajustes → “Apagar todos os dados” remove tudo do seu aparelho e do seu iCloud na hora. Apagar o app remove os dados do seu aparelho; a cópia no seu iCloud continua lá até você usar “Apagar todos os dados” ou removê-la nos ajustes do iCloud do seu iPhone.
 
 ## Crianças
 

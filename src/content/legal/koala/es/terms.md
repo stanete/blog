@@ -1,6 +1,6 @@
 ---
 title: "Condiciones del servicio"
-updated: "Última actualización: 8 de octubre de 2026"
+updated: "Última actualización: 9 de octubre de 2026"
 ---
 
 Estas condiciones son un acuerdo entre tú y David Stanete («yo»), el desarrollador de Koala. Al descargar o usar Koala, las aceptas. Si no estás de acuerdo, por favor, no uses la app.
@@ -19,7 +19,7 @@ Tus objetivos, tus sesiones registradas y tus pesos registrados son tuyos. Se gu
 
 ## Entrena con cabeza
 
-Koala es una herramienta para registrar tus propios objetivos. No es asesoramiento de entrenamiento, médico, nutricional ni de preparación física, y nunca te dice cómo subir o bajar de peso. Habla con un médico antes de cambiar de peso para una competición. El jiu-jitsu brasileño conlleva riesgo de lesión. Entrena con instrucción cualificada, conoce tus límites y consulta a un médico si tienes dudas. Entrenas bajo tu propia responsabilidad.
+Koala es una herramienta para registrar tus propios objetivos. No es asesoramiento de entrenamiento, médico, nutricional ni de preparación física, y nunca te dice cómo subir o bajar de peso. Habla con un médico antes de cambiar de peso para una competición. El BJJ conlleva riesgo de lesión. Entrena con instrucción cualificada, conoce tus límites y consulta a un médico si tienes dudas. Entrenas bajo tu propia responsabilidad.
 
 ## Uso aceptable
 
@@ -39,15 +39,15 @@ Koala se ofrece «tal cual» y «según disponibilidad». En la medida en que la
 
 ## Limitación de responsabilidad
 
-En la medida en que la ley lo permita, no respondo de ninguna pérdida indirecta o derivada, de la pérdida de datos ni de ninguna lesión relacionada con tu entrenamiento. Nada de lo que dicen estas condiciones limita la responsabilidad que por ley no se puede limitar, ni tus derechos como consumidor.
+En la medida en que la ley lo permita, no respondo de ninguna pérdida indirecta o derivada, de la pérdida de datos ni de ninguna lesión relacionada con tu entrenamiento. Nada de lo que dicen estas condiciones limita la responsabilidad que por ley no se puede limitar, ni tus derechos como persona consumidora.
 
 ## Apple
 
-Si descargaste Koala del App Store: estas condiciones son entre tú y yo, no con Apple. Apple no tiene ninguna obligación de prestar mantenimiento ni soporte para Koala. Apple no es responsable de ninguna garantía, de ninguna reclamación relacionada con Koala (incluidas las de responsabilidad por producto, legales o regulatorias), ni de investigar o defender ninguna reclamación de que Koala infringe la propiedad intelectual de alguien. Confirmas que no te encuentras en un país sujeto a un embargo del Gobierno de Estados Unidos, y que no figuras en ninguna lista de partes prohibidas o restringidas del Gobierno de Estados Unidos. Apple y sus filiales son terceros beneficiarios de estas condiciones y pueden hacerlas valer frente a ti.
+Si has descargado Koala del App Store: estas condiciones son entre tú y yo, no con Apple. Apple no tiene ninguna obligación de prestar mantenimiento ni soporte para Koala. Apple no es responsable de ninguna garantía, de ninguna reclamación relacionada con Koala (incluidas las de responsabilidad por producto, legales o regulatorias), ni de investigar o defender ninguna reclamación de que Koala infringe la propiedad intelectual de alguien. Confirmas que no te encuentras en un país sujeto a un embargo del Gobierno de Estados Unidos, y que no figuras en ninguna lista de partes prohibidas o restringidas del Gobierno de Estados Unidos. Apple y sus filiales son terceros beneficiarios de estas condiciones y pueden hacerlas valer frente a ti.
 
 ## Google Play
 
-Si descargaste Koala de Google Play, también se aplican las Condiciones de Servicio de Google Play. Google no es responsable de Koala ni de darle soporte.
+Si has descargado Koala de Google Play, también se aplican las Condiciones de Servicio de Google Play. Google no es responsable de Koala ni de darle soporte.
 
 ## Cambios y finalización
 
@@ -55,7 +55,7 @@ Puedo actualizar estas condiciones. Si lo hago, cambiaré la fecha de arriba, y 
 
 ## Ley aplicable
 
-Estas condiciones se rigen por las leyes de España. Si eres consumidor, conservas las protecciones que te den las leyes del país donde vives.
+Estas condiciones se rigen por las leyes de España. Si eres una persona consumidora, conservas las protecciones que te den las leyes del país donde vives.
 
 ## Contacto
 

@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service"
-updated: "Last updated: 8 October 2026"
+updated: "Last updated: October 9, 2026"
 ---
 
 These terms are an agreement between you and David Stanete (“I”, “me”), the developer of Koala. By downloading or using Koala, you agree to them. If you don’t agree, please don’t use the app.
@@ -9,9 +9,9 @@ These terms are an agreement between you and David Stanete (“I”, “me”), 
 
 Koala is free to use, with no purchases or subscriptions. It may show sponsors in the future, but never in a way that tracks you.
 
-## Your licence
+## Your license
 
-I give you a personal, non-exclusive, non-transferable and revocable licence to use Koala on devices you own or control, for your own non-commercial use, as allowed by the Apple Media Services Terms and Conditions or the Google Play Terms of Service.
+I give you a personal, non-exclusive, non-transferable and revocable license to use Koala on devices you own or control, for your own non-commercial use, as allowed by the Apple Media Services Terms and Conditions or the Google Play Terms of Service.
 
 ## Your data
 
@@ -19,7 +19,7 @@ Your goals, logged sessions and logged weights belong to you. They are stored on
 
 ## Train safely
 
-Koala is a tool for logging your own goals. It is not coaching, medical, nutrition or fitness advice, and it never tells you how to gain or lose weight. Talk to a doctor before changing your weight for a competition. Brazilian jiu-jitsu carries a risk of injury. Train under qualified instruction, know your limits, and check with a doctor if you are unsure. You train at your own risk.
+Koala is a tool for logging your own goals. It is not coaching, medical, nutrition or fitness advice, and it never tells you how to gain or lose weight. Talk to a doctor before changing your weight for a competition. BJJ carries a risk of injury. Train under qualified instruction, know your limits, and check with a doctor if you are unsure. You train at your own risk.
 
 ## Acceptable use
 

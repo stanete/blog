@@ -7,8 +7,8 @@
     "en": {
       "language": "English",
       "tagline": "one BJJ goal at a time",
-      "pitch": "Pick one goal: a submission, a takedown, an escape. Go for it every time you roll. After class, tell Koala if it worked. That’s the whole app",
-      "free": "Koala is free, and always will be. No account, no tracking",
+      "pitch": "Pick one goal: a submission, a takedown, an escape. Go for it every time you roll. After class, tell Koala if it worked. That’s the whole app.",
+      "free": "Koala is free, and always will be. No account, no tracking.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact",
@@ -31,8 +31,8 @@
     "es": {
       "language": "Español",
       "tagline": "tus objetivos de BJJ, de uno en uno",
-      "pitch": "Elige un objetivo: una finalización, un derribo, un escape. Inténtalo cada vez que ruedes. Después de clase, dile a Koala si te ha salido. Esa es toda la app",
-      "free": "Koala es gratis, y siempre lo será. Sin cuenta y sin rastreo",
+      "pitch": "Elige un objetivo: una finalización, un derribo, un escape. Inténtalo cada vez que ruedes. Después de clase, dile a Koala si lo has conseguido. Y ya está, la app es solo eso.",
+      "free": "Koala es gratis, y siempre lo será. Sin cuenta y sin rastreo.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
       "contact": "Contacto",
@@ -40,7 +40,7 @@
       "beta": "Prueba la beta",
       "iphone": {
         "title": "Ya puedes probar Koala en tu iPhone",
-        "text": "Descarga TestFlight, la app de Apple para probar apps antes de que salgan. Luego abre esta página en tu iPhone y toca Unirme a la beta.",
+        "text": "Descarga TestFlight, la app de Apple para probar apps antes de que se publiquen. Luego abre esta página en tu iPhone y toca «Unirme a la beta».",
         "join": "Unirme a la beta",
         "getTestFlight": "Descargar TestFlight"
       },
@@ -54,9 +54,9 @@
     },
     "pt": {
       "language": "Português",
-      "tagline": "uma meta de jiu-jitsu de cada vez",
-      "pitch": "Escolha uma meta: uma finalização, uma queda, uma saída. Vá atrás dela toda vez que rolar. Depois do treino, conte para o Koala se deu certo. O app é só isso",
-      "free": "O Koala é gratuito, e sempre vai ser. Sem conta, sem rastreamento",
+      "tagline": "uma meta de BJJ de cada vez",
+      "pitch": "Escolha uma meta: uma finalização, uma queda, uma saída. Vá atrás dela toda vez que rolar. Depois do treino, conte para o Koala se deu certo. O app é só isso.",
+      "free": "O Koala é gratuito, e sempre vai ser. Sem conta, sem rastreamento.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "contact": "Contato",
@@ -64,7 +64,7 @@
       "beta": "Teste o beta",
       "iphone": {
         "title": "Já dá para testar o Koala no seu iPhone",
-        "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em Participar do beta.",
+        "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em “Participar do beta”.",
         "join": "Participar do beta",
         "getTestFlight": "Baixar o TestFlight"
       },

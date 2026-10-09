@@ -1,6 +1,6 @@
 ---
 title: "Termos de Serviço"
-updated: "Última atualização: 8 de outubro de 2026"
+updated: "Última atualização: 9 de outubro de 2026"
 ---
 
 Estes termos são um acordo entre você e David Stanete (“eu”), o desenvolvedor do Koala. Ao baixar ou usar o Koala, você concorda com eles. Se não concordar, por favor, não use o app.
@@ -19,7 +19,7 @@ Suas metas, seus treinos registrados e seus pesos registrados são seus. Eles fi
 
 ## Treine com segurança
 
-O Koala é uma ferramenta para registrar suas próprias metas. Ele não é orientação de treino, médica, nutricional nem de condicionamento físico, e nunca diz como ganhar ou perder peso. Converse com um médico antes de mudar de peso para um campeonato. O jiu-jitsu brasileiro envolve risco de lesão. Treine com instrução qualificada, conheça seus limites e procure um médico se tiver dúvida. Você treina por sua conta e risco.
+O Koala é uma ferramenta para registrar suas próprias metas. Ele não é orientação de treino, médica, nutricional nem de condicionamento físico, e nunca diz como ganhar ou perder peso. Converse com um médico antes de mudar de peso para um campeonato. O BJJ envolve risco de lesão. Treine com instrução qualificada, conheça seus limites e procure um médico se tiver dúvida. Você treina por sua conta e risco.
 
 ## Uso aceitável
 
@@ -39,7 +39,7 @@ O Koala é fornecido “como está” e “conforme disponível”. Na medida em
 
 ## Limitação de responsabilidade
 
-Na medida em que a lei permitir, não me responsabilizo por nenhuma perda indireta ou consequente, por dados perdidos nem por nenhuma lesão relacionada ao seu treino. Nada nestes termos limita a responsabilidade que não pode ser limitada por lei, nem os seus direitos como consumidor.
+Na medida em que a lei permitir, não me responsabilizo por nenhuma perda indireta ou consequente, por dados perdidos nem por nenhuma lesão relacionada ao seu treino. Nada nestes termos limita a responsabilidade que não pode ser limitada por lei, nem os seus direitos como pessoa consumidora.
 
 ## Apple
 
@@ -55,7 +55,7 @@ Eu posso atualizar estes termos. Se fizer isso, vou mudar a data no topo, e cont
 
 ## Lei aplicável
 
-Estes termos são regidos pelas leis da Espanha. Se você é consumidor, mantém as proteções dadas pelas leis do país onde mora.
+Estes termos são regidos pelas leis da Espanha. Se você é uma pessoa consumidora, mantém as proteções dadas pelas leis do país onde mora.
 
 ## Contato
 

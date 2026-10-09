@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-updated: "Last updated: 8 October 2026"
+updated: "Last updated: October 9, 2026"
 ---
 
 Koala is a free app made by David Stanete, an independent developer based in Spain (“I”, “me”). This policy explains what happens to your information when you use Koala.
@@ -17,7 +17,7 @@ If iCloud sync is on (it is by default when you are signed in to iCloud), Koala 
 
 ## What Koala does not do
 
-Koala does not run its own servers or use analytics, advertising or crash-reporting services. It does not track you across other apps or websites. It does not access your location, contacts or camera. It never reads your photos: it only adds your goal card to them when you tap Save to Photos. It reads Apple Health only if you turn that on, for sleep or for a weight goal. It does not sell, rent or share any data, because it has none to share.
+Koala does not run its own servers or use analytics, advertising or crash-reporting services. It does not track you across other apps or websites. It does not access your location, contacts or camera. It never reads your photos: it only adds the image of your goal to them when you tap Save to Photos. It reads Apple Health only if you turn that on, for sleep or for a weight goal. It does not sell, rent or share any data, because it has none to share.
 
 ## Reminders
 
@@ -25,11 +25,11 @@ Reminders are scheduled on your device using the system’s local notifications.
 
 ## Apple Health (optional)
 
-If you turn on Apple Health, Koala asks your permission to read how long you sleep, and shows it on Home. If you also add a weight goal to a competition, it asks to read your body weight. It reads only these and never writes to Health. On Android, Koala does the same with Health Connect. The readings stay on your device (and in your own iCloud with the rest of your data, if iCloud sync is on). They are never sent to me or to anyone else, and they are not used for advertising or analytics. You can turn Apple Health off in Koala, or take back access in the Health settings on your iPhone.
+If you turn on Apple Health, Koala asks your permission to read how long you sleep, and shows it on Home. If you also add a weight goal to a competition, it asks to read your body weight. It reads only these and never writes to Apple Health. On Android, Koala does the same with Health Connect. The readings stay on your device (and in your own iCloud with the rest of your data, if iCloud sync is on). They are never sent to me or to anyone else, and they are not used for advertising or analytics. You can turn Apple Health off in Koala, or take back access in the Health settings on your iPhone.
 
 ## Sharing a goal
 
-When you tap Instagram on the share screen, Koala creates an image of your goal card on your device and hands it to Instagram. When you tap Save to Photos, it adds that image to your photos; Koala asks for permission first, and only to add, never to read. Nothing is shared or saved unless you tap. Once shared, that app’s own privacy policy applies (for example, Instagram’s).
+When you tap Instagram on the share screen, Koala creates an image of your goal on your device and hands it to Instagram. When you tap Save to Photos, it adds that image to your photos; Koala asks for permission first, and only to add, never to read. Nothing is shared or saved unless you tap. Once shared, that app’s own privacy policy applies (for example, Instagram’s).
 
 ## Exporting and importing your data
 
