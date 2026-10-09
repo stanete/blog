@@ -72,15 +72,15 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   ) : (
     <Fragment>
     <Container>
-      <div class="space-y-4">
-        <img class="animate -ml-3" src={`${assets}/icon.png`} alt="" width="112" height="112" />
-        <div class="animate text-sm font-semibold">{name}</div>
-        <h1 class="animate text-4xl font-semibold tracking-tight text-black dark:text-white text-balance">
-          {texts.tagline}
-        </h1>
-        <p class="animate font-serif text-lg text-balance">{texts.pitch}</p>
-        <p class="animate text-sm">{texts.free}</p>
-      </div>
+      {/* A title and a few lines, as on a post: the pictures below do the selling. */}
+      <img class="animate -ml-3" src={`${assets}/icon.png`} alt="" width="96" height="96" />
+      <h1 class="animate mt-6 mb-4 text-2xl font-semibold text-black dark:text-white text-balance">
+        {name}: {texts.tagline}
+      </h1>
+      <article class="animate">
+        <p>{texts.pitch}.</p>
+        <p>{texts.free}.</p>
+      </article>
     </Container>
 
     <div class="animate gallery">
@@ -97,14 +97,16 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
 
     <Container>
       <div class="space-y-4">
-        {/* How to get the beta, in one card like the app's own: the phone picks its side, and the reader can switch. */}
-        <section class="animate beta rounded-[1.625rem] bg-white dark:bg-stone-800 p-5 space-y-4">
+        {/* How to get the beta, in a card like the app's own: a small label, the
+            message, a few words more, then what to tap. The phone picks its side,
+            and the reader can switch. */}
+        <section class="animate beta rounded-[1.625rem] bg-white dark:bg-stone-800 p-5">
           {testflight && <input type="radio" name="phone" id="beta-iphone" class="sr-only" checked />}
           {testflight && <input type="radio" name="phone" id="beta-android" class="sr-only" />}
-          <div class="phones flex flex-wrap items-baseline justify-between gap-x-4">
-            <h2 class="text-lg font-semibold text-black dark:text-white">{texts.beta}</h2>
+          <div class="phones flex flex-wrap items-baseline justify-between gap-x-4 text-sm">
+            <h2>{texts.beta}</h2>
             {testflight && (
-              <div class="flex gap-1 text-sm">
+              <div class="flex gap-1">
                 <label for="beta-iphone">iPhone</label>
                 <span>/</span>
                 <label for="beta-android">Android</label>
@@ -112,32 +114,28 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
             )}
           </div>
           {testflight && (
-            <Fragment>
-              <div class="iphone space-y-4">
-                <ol class="list-decimal pl-5 space-y-1">
-                  {texts.iphone.steps.map((step) => <li>{step}</li>)}
-                </ol>
-                <div class="flex flex-wrap gap-2">
-                  <a class:list={[button, loud]} href={testflight}>{texts.iphone.join}</a>
-                  <a class:list={[button, quiet]} href="https://apps.apple.com/app/testflight/id899247664">
-                    {texts.iphone.getTestFlight}
-                  </a>
-                </div>
-                <p class="text-sm">{texts.iphone.note}</p>
+            <div class="iphone">
+              <p class="mt-1 font-semibold text-black dark:text-white">{texts.iphone.title}</p>
+              <p class="mt-1 text-sm">{texts.iphone.text}</p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <a class:list={[button, loud]} href={testflight}>{texts.iphone.join}</a>
+                <a class:list={[button, quiet]} href="https://apps.apple.com/app/testflight/id899247664">
+                  {texts.iphone.getTestFlight}
+                </a>
               </div>
-            </Fragment>
+            </div>
           )}
-          <div class="android space-y-4">
-            <ol class="list-decimal pl-5 space-y-1">
-              {texts.android.steps.map((step) => <li>{step}</li>)}
-            </ol>
-            <a class:list={[button, loud]} href={mail}>{texts.android.send}</a>
+          <div class="android">
+            <p class="mt-1 font-semibold text-black dark:text-white">{texts.android.title}</p>
+            <p class="mt-1 text-sm">{texts.android.text}</p>
+            <div class="mt-4">
+              <a class:list={[button, loud]} href={mail}>{texts.android.send}</a>
+            </div>
           </div>
         </section>
         <script is:inline>
           if (/android/i.test(navigator.userAgent)) document.getElementById("beta-android")?.click();
         </script>
-        <p class="animate text-sm">{texts.comingSoon}</p>
       </div>
     </Container>
     </Fragment>

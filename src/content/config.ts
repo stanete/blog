@@ -48,21 +48,22 @@ const apps = defineCollection({
       tagline: z.string(),
       pitch: z.string(),
       free: z.string(),
-      comingSoon: z.string(),
       privacy: z.string(),
       terms: z.string(),
       contact: z.string(),
       screenshot: z.string(),
-      // The title of the card that says how to get the beta.
+      // The card that says how to get the beta: its small label, then for
+      // each phone the message, a few words more and what to tap.
       beta: z.string(),
       iphone: z.object({
-        steps: z.array(z.string()),
+        title: z.string(),
+        text: z.string(),
         join: z.string(),
         getTestFlight: z.string(),
-        note: z.string(),
       }),
       android: z.object({
-        steps: z.array(z.string()),
+        title: z.string(),
+        text: z.string(),
         send: z.string(),
         subject: z.string(),
         body: z.string(),
