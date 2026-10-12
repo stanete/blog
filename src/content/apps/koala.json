@@ -21,8 +21,8 @@
         "getTestFlight": "Get TestFlight"
       },
       "android": {
-        "title": "Android is next",
-        "text": "The first Android beta is by invitation. Email me the address you use for Google Play and I’ll send you a link as soon as it’s ready.",
+        "title": "Koala is ready to try on Android too",
+        "text": "The Android beta is by invitation. Email me the address you use for Google Play. I’ll add you and send you the link.",
         "send": "Email me",
         "subject": "Koala beta on Android",
         "body": "Hi David, I’d like to try Koala on Android. The address I use for Google Play is: "
@@ -45,8 +45,8 @@
         "getTestFlight": "Descargar TestFlight"
       },
       "android": {
-        "title": "Android es el siguiente",
-        "text": "La primera beta de Android es por invitación. Escríbeme con el correo que usas en Google Play y te mando un enlace en cuanto esté lista.",
+        "title": "Koala ya se puede probar también en Android",
+        "text": "La beta de Android es por invitación. Escríbeme con el correo que usas en Google Play. Te añado y te mando el enlace.",
         "send": "Escríbeme",
         "subject": "Beta de Koala en Android",
         "body": "Hola, David. Me gustaría probar Koala en Android. El correo que uso en Google Play es: "
@@ -69,8 +69,8 @@
         "getTestFlight": "Baixar o TestFlight"
       },
       "android": {
-        "title": "O Android é o próximo",
-        "text": "O primeiro beta do Android é só para convidados. Me escreva com o e-mail que você usa no Google Play e eu mando um link assim que estiver pronto.",
+        "title": "O Koala já pode ser testado no Android também",
+        "text": "O beta do Android é só para convidados. Me escreva com o e-mail que você usa no Google Play. Eu adiciono você e mando o link.",
         "send": "Me escreva",
         "subject": "Beta do Koala no Android",
         "body": "Oi, David. Quero testar o Koala no Android. O e-mail que eu uso no Google Play é: "
