@@ -73,7 +73,47 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
     <Fragment>
     <Container>
       {/* A title and a few lines, as on a post: the pictures below do the selling. */}
-      <img class="animate -ml-3" src={`${assets}/icon.png`} alt="" width="96" height="96" />
+      {/* The koala breathes, sleeps from 22:00 to 7:00 by the visitor's clock, and jumps
+          when clicked, as in the app. Decoration only, so screen readers skip it. */}
+      <div class="animate -ml-3">
+        <div class="koala" aria-hidden="true">
+          <div class="koala-jump">
+            <div class="koala-droop">
+              <div class="koala-breath">
+                <img src={`${assets}/icon.png`} alt="" width="96" height="96" />
+                <span class="lid lid-left"></span>
+                <span class="lid lid-right"></span>
+              </div>
+            </div>
+            <span class="z text-stone-400">z</span>
+            <span class="z text-stone-400">z</span>
+            <span class="z text-stone-400">z</span>
+          </div>
+        </div>
+      </div>
+      <script is:inline>
+        (() => {
+          const koala = document.querySelector(".koala");
+          if (!koala) return;
+          const sleepy = () => {
+            const hour = new Date().getHours();
+            koala.classList.toggle("asleep", hour >= 22 || hour < 7);
+          };
+          sleepy();
+          setInterval(sleepy, 60000);
+          // Nobody jumps in their sleep: it wakes for the jump, then nods off again.
+          const jump = koala.querySelector(".koala-jump");
+          koala.addEventListener("click", () => {
+            if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+            koala.classList.remove("jumping");
+            void jump.offsetWidth;
+            koala.classList.add("jumping");
+          });
+          jump.addEventListener("animationend", (event) => {
+            if (event.target === jump) koala.classList.remove("jumping");
+          });
+        })();
+      </script>
       <h1 class="animate mt-6 mb-4 text-2xl font-semibold text-black dark:text-white text-balance">
         {name}: {texts.tagline}
       </h1>
@@ -193,6 +233,156 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   #beta-iphone:checked ~ .android,
   #beta-android:checked ~ .iphone {
     display: none;
+  }
+  /* The koala, as in the app. Its eyelids are placed in % of the picture. */
+  .koala {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  .koala img {
+    display: block;
+  }
+  .koala-jump,
+  .koala-droop,
+  .koala-breath {
+    transform-origin: 50% 80%;
+  }
+  .koala-breath {
+    position: relative;
+    animation: breathe 4s ease-in-out infinite;
+  }
+  @keyframes breathe {
+    50% {
+      transform: translateY(-2px) scale(1.035);
+    }
+  }
+  .koala-droop {
+    transition: transform 0.3s ease-in-out;
+  }
+  .koala.asleep:not(.jumping) .koala-droop {
+    transform: translateY(2px) rotate(8deg);
+    transition-duration: 1.2s;
+  }
+  .koala.asleep:not(.jumping) .koala-breath {
+    animation: breathe-asleep 5s ease-in-out infinite;
+  }
+  @keyframes breathe-asleep {
+    50% {
+      transform: scale(1.025);
+    }
+  }
+  .lid {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.15s ease-in-out;
+  }
+  .koala.asleep:not(.jumping) .lid {
+    transform: scaleY(1);
+    transition-duration: 0.7s;
+  }
+  .lid-left {
+    left: 44.5%;
+    top: 51%;
+    width: 10%;
+    height: 12.5%;
+    background: #c4c5c7;
+  }
+  .lid-right {
+    left: 76%;
+    top: 54.5%;
+    width: 4.4%;
+    height: 10%;
+    background: #d3d4d6;
+  }
+  /* The line of a closed eye, curved like a smile. */
+  .lid::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 22%;
+    height: 45%;
+    border-bottom: 1.5px solid #2c2c2e;
+    border-radius: 0 0 999px 999px;
+  }
+  .z {
+    position: absolute;
+    left: 86%;
+    top: 12%;
+    font-family: ui-rounded, system-ui, sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .z:nth-of-type(1) {
+    font-size: 19px;
+  }
+  .z:nth-of-type(2) {
+    font-size: 24px;
+  }
+  .z:nth-of-type(3) {
+    font-size: 29px;
+  }
+  .koala.asleep:not(.jumping) .z {
+    animation: z 3.6s ease-out 1.2s infinite;
+  }
+  .koala.asleep:not(.jumping) .z:nth-of-type(2) {
+    animation-delay: 2.4s;
+  }
+  .koala.asleep:not(.jumping) .z:nth-of-type(3) {
+    animation-delay: 3.6s;
+  }
+  @keyframes z {
+    0% {
+      opacity: 0;
+      transform: none;
+    }
+    15% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(24px, -38px);
+    }
+  }
+  .koala.jumping .koala-jump {
+    animation: jump 0.6s;
+  }
+  @keyframes jump {
+    18% {
+      transform: scale(1.1, 0.88);
+    }
+    48% {
+      transform: translateY(-18px) scale(0.95, 1.06);
+    }
+    74% {
+      transform: scale(1.07, 0.93);
+    }
+    88% {
+      transform: scale(0.98, 1.02);
+    }
+  }
+  /* With reduced motion it is still: asleep, it only has its eyes closed. */
+  @media (prefers-reduced-motion: reduce) {
+    .koala *,
+    .koala *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .koala.asleep:not(.jumping) .koala-droop {
+      transform: none;
+    }
   }
   /* The store screenshots, in a row that scrolls sideways past the column.
      The room above and below is for their shadows. */
