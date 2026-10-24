@@ -43,6 +43,46 @@ const assets = `/apps/${app.id}`;
 const mail = `mailto:${SITE.EMAIL}?subject=${encodeURIComponent(texts.android.subject)}&body=${encodeURIComponent(texts.android.body)}`;
 const Content = page && (await page.render()).Content;
 
+// What search engines and AI assistants read about the app: the page in each
+// language, and the app and its questions as schema.org data.
+const url = (path: string) => new URL(path, Astro.site).href;
+const alternates = Object.keys(languages).map((code) => ({ code, href: url(home(code)) }));
+const shotAlt = (index: number) =>
+  texts.shots?.[index] ??
+  texts.screenshot.replace("{n}", String(index + 1)).replace("{total}", String(screenshots));
+const shotSrc = (index: number) => `${assets}/screenshots/${lang}/${String(index + 1).padStart(2, "0")}.jpg`;
+const structured = [
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    name,
+    alternateName: `${name}: ${texts.tagline}`,
+    description: texts.description ?? texts.pitch,
+    url: url(here),
+    image: url(`${assets}/icon.png`),
+    screenshot: Array.from({ length: screenshots }, (_, index) => url(shotSrc(index))),
+    applicationCategory: "SportsApplication",
+    operatingSystem: "iOS, Android",
+    inLanguage: Object.keys(languages),
+    isAccessibleForFree: true,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    datePublished: app.data.date.toISOString().slice(0, 10),
+    author: { "@type": "Person", name: SITE.NAME, url: url("/"), email: SITE.EMAIL },
+  },
+  ...(texts.faq?.length
+    ? [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      inLanguage: lang,
+      mainEntity: texts.faq.map(({ q, a }) => ({
+        "@type": "Question",
+        name: q,
+        acceptedAnswer: { "@type": "Answer", text: a },
+      })),
+    }]
+    : []),
+];
+
 const button = "inline-block rounded-full px-5 py-3 text-sm font-semibold transition-colors duration-300 ease-in-out";
 const loud = "bg-black text-white hover:bg-black/75 dark:bg-white dark:text-black dark:hover:bg-white/75";
 const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/15";
@@ -50,11 +90,17 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
 
 <PageLayout
   title={page ? `${page.data.title} · ${name}` : `${name}: ${texts.tagline}`}
-  description={page ? page.data.title : texts.pitch}
+  description={page ? page.data.title : texts.description ?? texts.pitch}
   lang={lang}
   image={`${assets}/share.jpg`}
 >
   <link slot="head" rel="apple-touch-icon" href={`${assets}/apple-touch-icon.png`} />
+  {!page && alternates.map(({ code, href }) => (
+    <link slot="head" rel="alternate" hreflang={code} href={href} />
+  ))}
+  {!page && <link slot="head" rel="alternate" hreflang="x-default" href={url(home(first))} />}
+  {!page && <script slot="head" type="application/ld+json" set:html={JSON.stringify(structured)} />}
+  <link slot="head" rel="alternate" type="text/plain" title={`${name} for AI assistants`} href={`/${app.id}/llms.txt`} />
 
   {page && Content ? (
     <Container>
@@ -126,8 +172,8 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
     <div class="animate gallery">
       {Array.from({ length: screenshots }, (_, index) => (
         <img
-          src={`${assets}/screenshots/${lang}/${String(index + 1).padStart(2, "0")}.jpg`}
-          alt={texts.screenshot.replace("{n}", String(index + 1)).replace("{total}", String(screenshots))}
+          src={shotSrc(index)}
+          alt={shotAlt(index)}
           width="660"
           height="1434"
           loading="lazy"
@@ -173,6 +219,18 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
             </div>
           </div>
         </section>
+        {/* Plain questions and answers, in the words people search with. */}
+        {texts.faq && texts.faq.length > 0 && (
+          <section class="animate faq pt-12">
+            <h2 class="text-sm">{texts.faqTitle}</h2>
+            {texts.faq.map(({ q, a }) => (
+              <div class="mt-6">
+                <h3 class="font-semibold text-black dark:text-white">{q}</h3>
+                <p class="mt-1">{a}</p>
+              </div>
+            ))}
+          </section>
+        )}
         <script is:inline>
           if (/android/i.test(navigator.userAgent)) document.getElementById("beta-android")?.click();
         </script>

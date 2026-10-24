@@ -47,11 +47,19 @@ const apps = defineCollection({
       language: z.string(),
       tagline: z.string(),
       pitch: z.string(),
+      // The page's description for search engines and link previews.
+      description: z.string().optional(),
       free: z.string(),
       privacy: z.string(),
       terms: z.string(),
       contact: z.string(),
       screenshot: z.string(),
+      // What each screenshot shows, in order, for screen readers and search.
+      shots: z.array(z.string()).optional(),
+      // Questions and answers under the beta card. They are also the page's
+      // FAQ for search engines and AI assistants, and the app's llms.txt.
+      faqTitle: z.string().optional(),
+      faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
       // The card that says how to get the beta: its small label, then for
       // each phone the message, a few words more and what to tap.
       beta: z.string(),

@@ -8,11 +8,22 @@
       "language": "English",
       "tagline": "one BJJ goal at a time",
       "pitch": "Pick one goal: a submission, a takedown, an escape. Go for it every time you roll. After class, tell Koala if it worked. That’s the whole app.",
+      "description": "Koala is a free BJJ app: pick one jiu-jitsu goal, go for it every time you roll, and log it after class with one tap. No account, no ads, no tracking.",
       "free": "Koala is free, and always will be. No account, no tracking.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact",
       "screenshot": "Koala, screenshot {n} of {total}",
+      "shots": [
+        "One BJJ goal at a time: Home with today’s primary and secondary goals",
+        "One tap after class: logging a goal from the reminder",
+        "Know if it’s working: where each goal stands, and what to try next class",
+        "Plan what’s next: goals saved in «Up next» and no-gi «Ideas» for your belt",
+        "Sleep, next to your goals: your last 14 nights",
+        "Get ready for a competition: the countdown and your weight goal",
+        "A timer for open mat: rounds and rest, with a bell",
+        "A goal shared as an image for your Story"
+      ],
       "beta": "Try the beta",
       "iphone": {
         "title": "Koala is ready to try on your iPhone",
@@ -26,17 +37,59 @@
         "send": "Email me",
         "subject": "Koala beta on Android",
         "body": "Hi David, I’d like to try Koala on Android. The address I use for Google Play is: "
-      }
+      },
+      "faqTitle": "Questions",
+      "faq": [
+        {
+          "q": "What is Koala?",
+          "a": "A free app for Brazilian jiu-jitsu (BJJ), gi or no-gi. You pick one goal, like a submission, a sweep, a takedown or an escape. You go for it every time you roll. After class you answer one question: did you pull it off? Koala then tells you where each goal stands: first time, getting better, getting harder, or you’ve got it."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes, and it always will be. No ads, no subscription, no in-app purchases, no account."
+        },
+        {
+          "q": "What does Koala know about me?",
+          "a": "Nothing it sends anywhere. Koala has no server and no analytics. Everything stays on your phone, with a copy in your own iCloud on iPhone if you want one. The App Store and Google Play privacy labels say no data is collected."
+        },
+        {
+          "q": "Does Koala teach jiu-jitsu?",
+          "a": "No, that’s your coach’s job. Koala keeps track of what you’re working on. To start somewhere, «Ideas» has no-gi systems for each belt, without videos or explanations."
+        },
+        {
+          "q": "What else is in it?",
+          "a": "Reminders before and after class, widgets, your month in a calendar, systems that chain goals from a position, a round timer for open mat, your sleep from Apple Health or Health Connect, a countdown to a competition with an optional weight goal, and images to share a goal."
+        },
+        {
+          "q": "Which phones and languages?",
+          "a": "iPhone and Android, in English, Spanish and Portuguese."
+        },
+        {
+          "q": "Who makes it?",
+          "a": "David Stanete, who trains BJJ and builds Koala in his spare time. Ideas and bugs go to davidstanete@gmail.com."
+        }
+      ]
     },
     "es": {
       "language": "Español",
       "tagline": "tus objetivos de BJJ, de uno en uno",
-      "pitch": "Elige un objetivo: una finalización, un derribo, un escape. Inténtalo cada vez que ruedes. Después de clase, dile a Koala si lo has conseguido. Y ya está, la app es solo eso.",
+      "pitch": "Elige un objetivo: una finalización, un derribo, un escape. Inténtalo en cada sparring. Después de clase, dile a Koala si lo has conseguido. Y ya está, la app es solo eso.",
+      "description": "Koala es una app gratis de BJJ: elige un objetivo de jiu-jitsu, inténtalo en cada sparring y apúntalo después de clase con un toque. Sin cuenta, sin anuncios y sin rastreo.",
       "free": "Koala es gratis, y siempre lo será. Sin cuenta y sin rastreo.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
       "contact": "Contacto",
       "screenshot": "Koala, captura {n} de {total}",
+      "shots": [
+        "Objetivos de BJJ de uno en uno: el inicio con tus objetivos principal y secundario",
+        "Apúntalo después de clase: un objetivo registrado desde el recordatorio",
+        "¿Te está funcionando?: cómo va cada objetivo y qué probar en la próxima clase",
+        "Planifica: objetivos guardados en «Para después» e «Ideas» de no-gi para tu cinturón",
+        "El sueño, junto a tus objetivos: tus últimas 14 noches",
+        "Prepárate para competir: la cuenta atrás y tu objetivo de peso",
+        "Un timer para el open mat: rondas y descansos, con campana",
+        "Un objetivo compartido como imagen para tu historia"
+      ],
       "beta": "Prueba la beta",
       "iphone": {
         "title": "Ya puedes probar Koala en tu iPhone",
@@ -50,17 +103,59 @@
         "send": "Escríbeme",
         "subject": "Beta de Koala en Android",
         "body": "Hola, David. Me gustaría probar Koala en Android. El correo que uso en Google Play es: "
-      }
+      },
+      "faqTitle": "Preguntas",
+      "faq": [
+        {
+          "q": "¿Qué es Koala?",
+          "a": "Una app gratis de jiu-jitsu brasileño (BJJ), con gi o no-gi. Eliges un objetivo, como una finalización, una barrida, un derribo o un escape. Lo intentas en cada sparring. Después de clase respondes una pregunta: ¿lo has conseguido? Koala te dice cómo va cada objetivo: primera vez, vas a mejor, cada vez cuesta más o ya lo tienes."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Sí, y siempre lo será. Sin anuncios, sin suscripción, sin compras dentro de la app y sin cuenta."
+        },
+        {
+          "q": "¿Qué sabe Koala de mí?",
+          "a": "Nada que envíe a ningún sitio. Koala no tiene servidor ni analíticas. Todo se queda en tu móvil, con una copia en tu propio iCloud en el iPhone si quieres. Las etiquetas de privacidad de App Store y Google Play dicen que no se recoge ningún dato."
+        },
+        {
+          "q": "¿Koala enseña jiu-jitsu?",
+          "a": "No, eso es cosa de tu profesor. Koala lleva la cuenta de lo que estás trabajando. Para empezar por algún sitio, en «Ideas» hay sistemas de no-gi para cada cinturón, sin vídeos ni explicaciones."
+        },
+        {
+          "q": "¿Qué más tiene?",
+          "a": "Recordatorios antes y después de clase, widgets, tu mes en un calendario, sistemas que encadenan objetivos desde una posición, un timer de rondas para el open mat, tu sueño desde Apple Salud o Health Connect, una cuenta atrás para una competición con un objetivo de peso si quieres, e imágenes para compartir un objetivo."
+        },
+        {
+          "q": "¿En qué móviles e idiomas?",
+          "a": "iPhone y Android, en español, inglés y portugués."
+        },
+        {
+          "q": "¿Quién la hace?",
+          "a": "David Stanete, que entrena BJJ y hace Koala en su tiempo libre. Ideas y errores, a davidstanete@gmail.com."
+        }
+      ]
     },
     "pt": {
       "language": "Português",
       "tagline": "uma meta de BJJ de cada vez",
       "pitch": "Escolha uma meta: uma finalização, uma queda, uma saída. Vá atrás dela toda vez que rolar. Depois do treino, conte para o Koala se deu certo. O app é só isso.",
+      "description": "O Koala é um app gratuito de BJJ: escolha uma meta de jiu-jitsu, vá atrás dela toda vez que rolar e registre depois do treino com um toque. Sem conta, sem anúncios, sem rastreamento.",
       "free": "O Koala é gratuito, e sempre vai ser. Sem conta, sem rastreamento.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "contact": "Contato",
       "screenshot": "Koala, captura {n} de {total}",
+      "shots": [
+        "Uma meta de BJJ por vez: o início com suas metas principal e secundária",
+        "Um toque depois do treino: uma meta registrada pelo lembrete",
+        "Saiba se está funcionando: como vai cada meta e o que tentar no próximo treino",
+        "Planeje o que vem depois: metas guardadas em «Para depois» e «Ideias» de no-gi para sua faixa",
+        "O sono, ao lado das suas metas: suas últimas 14 noites",
+        "Prepare-se para um campeonato: a contagem regressiva e sua meta de peso",
+        "Um timer para o open mat: rounds e descanso, com sino",
+        "Uma meta compartilhada como imagem para o seu story"
+      ],
       "beta": "Teste o beta",
       "iphone": {
         "title": "Já dá para testar o Koala no seu iPhone",
@@ -74,7 +169,38 @@
         "send": "Me escreva",
         "subject": "Beta do Koala no Android",
         "body": "Oi, David. Quero testar o Koala no Android. O e-mail que eu uso no Google Play é: "
-      }
+      },
+      "faqTitle": "Perguntas",
+      "faq": [
+        {
+          "q": "O que é o Koala?",
+          "a": "Um app gratuito de jiu-jitsu brasileiro (BJJ), com kimono ou no-gi. Você escolhe uma meta, como uma finalização, uma raspagem, uma queda ou uma saída. Vai atrás dela toda vez que rolar. Depois do treino responde uma pergunta: conseguiu? O Koala diz como vai cada meta: primeira vez, melhorando, ficando mais difícil ou pegou o jeito."
+        },
+        {
+          "q": "É gratuito?",
+          "a": "Sim, e sempre vai ser. Sem anúncios, sem assinatura, sem compras no app e sem conta."
+        },
+        {
+          "q": "O que o Koala sabe sobre mim?",
+          "a": "Nada que ele mande para algum lugar. O Koala não tem servidor nem analytics. Tudo fica no seu celular, com uma cópia no seu próprio iCloud no iPhone se você quiser. Os rótulos de privacidade da App Store e do Google Play dizem que nenhum dado é coletado."
+        },
+        {
+          "q": "O Koala ensina jiu-jitsu?",
+          "a": "Não, isso é com o seu professor. O Koala acompanha o que você está treinando. Para começar por algum lugar, em «Ideias» tem sistemas de no-gi para cada faixa, sem vídeos nem explicações."
+        },
+        {
+          "q": "O que mais tem?",
+          "a": "Lembretes antes e depois do treino, widgets, seu mês num calendário, sistemas que encadeiam metas a partir de uma posição, um timer de rounds para o open mat, seu sono do app Saúde ou do Health Connect, uma contagem regressiva para um campeonato com uma meta de peso opcional, e imagens para compartilhar uma meta."
+        },
+        {
+          "q": "Em quais celulares e idiomas?",
+          "a": "iPhone e Android, em português, inglês e espanhol."
+        },
+        {
+          "q": "Quem faz?",
+          "a": "David Stanete, que treina BJJ e faz o Koala no tempo livre. Ideias e bugs: davidstanete@gmail.com."
+        }
+      ]
     }
   }
 }
