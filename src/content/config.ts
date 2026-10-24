@@ -10,28 +10,6 @@ const blog = defineCollection({
   }),
 });
 
-const work = defineCollection({
-  type: "content",
-  schema: z.object({
-    company: z.string(),
-    role: z.string(),
-    dateStart: z.coerce.date(),
-    dateEnd: z.union([z.coerce.date(), z.string()]),
-  }),
-});
-
-const projects = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    date: z.coerce.date(),
-    draft: z.boolean().optional(),
-    demoURL: z.string().optional(),
-    repoURL: z.string().optional()
-  }),
-});
-
 // One file per app. Its first language is the one at the top of its pages
 // (`/koala/`); the others each have a folder (`/koala/es/`).
 // An app's pictures are in `public/apps/<app>/`.
@@ -90,4 +68,4 @@ const legal = defineCollection({
   }),
 });
 
-export const collections = { blog, work, projects, apps, legal };
+export const collections = { blog, apps, legal };

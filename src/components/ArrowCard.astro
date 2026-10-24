@@ -1,9 +1,9 @@
 ---
 import type { CollectionEntry } from "astro:content";
 
-// A post or a project, or any other link given by hand (an app, with its icon).
+// A post, or any other link given by hand (an app, with its icon).
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
+  entry: CollectionEntry<"blog">;
 } | {
   entry?: undefined;
   href: string;
