@@ -219,15 +219,22 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
             </div>
           </div>
         </section>
-        {/* Plain questions and answers, in the words people search with. */}
+        {/* The questions, as in the app's «How Koala works»: a card titled inside, one row
+            per question, and a tap opens its answer in place. The answers are in the page
+            even when closed, so search engines and assistants read them. */}
         {texts.faq && texts.faq.length > 0 && (
-          <section class="animate faq pt-12">
-            <h2 class="text-sm">{texts.faqTitle}</h2>
+          <section class="animate faq rounded-[1.625rem] bg-white dark:bg-stone-800 px-5">
+            <h2 class="pt-4 pb-1 text-sm">{texts.faqTitle}</h2>
             {texts.faq.map(({ q, a }) => (
-              <div class="mt-6">
-                <h3 class="font-semibold text-black dark:text-white">{q}</h3>
-                <p class="mt-1">{a}</p>
-              </div>
+              <details>
+                <summary class="text-black dark:text-white">
+                  <span>{q}</span>
+                  <svg viewBox="0 0 8 13" width="8" height="13" aria-hidden="true">
+                    <path d="M1.5 1.5 6.5 6.5 1.5 11.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </summary>
+                <p class="pb-3">{a}</p>
+              </details>
             ))}
           </section>
         )}
@@ -291,6 +298,55 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   #beta-iphone:checked ~ .android,
   #beta-android:checked ~ .iphone {
     display: none;
+  }
+  /* The questions: rows like the app's, with a hairline between them. A pressed row
+     goes gray across the whole card, edge to edge, as on iPhone. */
+  .faq details + details {
+    border-top: 1px solid rgba(60, 60, 67, 0.1);
+  }
+  :global(.dark) .faq details + details {
+    border-top-color: rgba(84, 84, 88, 0.3);
+  }
+  .faq summary {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 3.25rem;
+    margin: 0 -1.25rem;
+    padding: 0.5rem 1.25rem;
+    list-style: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary span {
+    flex: 1;
+  }
+  .faq summary:active {
+    background: rgba(0, 0, 0, 0.08);
+  }
+  :global(.dark) .faq summary:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .faq summary svg {
+    flex: none;
+    color: #c4c4c7;
+    transition: transform 0.2s ease-in-out;
+  }
+  :global(.dark) .faq summary svg {
+    color: #5a5a5e;
+  }
+  .faq details[open] summary svg {
+    transform: rotate(90deg);
+  }
+  .faq summary:focus-visible {
+    outline: 1px dotted currentColor;
+    outline-offset: -2px;
+  }
+  .faq details:last-child[open] p {
+    padding-bottom: 1rem;
   }
   /* The koala, as in the app. Its eyelids are placed in % of the picture. */
   .koala {
