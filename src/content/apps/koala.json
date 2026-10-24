@@ -45,6 +45,10 @@
           "a": "A free app for Brazilian jiu-jitsu (BJJ), gi or no-gi. You pick one goal, like a submission, a sweep, a takedown or an escape. You go for it every time you roll. After class you answer one question: did you pull it off? Koala then tells you where each goal stands: first time, getting better, getting harder, or you’ve got it."
         },
         {
+          "q": "Is Koala a BJJ journal?",
+          "a": "A different kind of one. No long entries and no technique lists: one goal, and one answer after class, with a few words of note if you want. Koala keeps every day, so you can look back at how a goal went."
+        },
+        {
           "q": "Is it free?",
           "a": "Yes, and it always will be. No ads, no subscription, no in-app purchases, no account."
         },
@@ -111,6 +115,10 @@
           "a": "Una app gratis de jiu-jitsu brasileño (BJJ), con gi o no-gi. Eliges un objetivo, como una finalización, una barrida, un derribo o un escape. Lo intentas en cada sparring. Después de clase respondes una pregunta: ¿lo has conseguido? Koala te dice cómo va cada objetivo: primera vez, vas a mejor, cada vez cuesta más o ya lo tienes."
         },
         {
+          "q": "¿Koala es un diario de BJJ?",
+          "a": "Uno diferente. Sin entradas largas ni listas de técnicas: un objetivo y una respuesta después de clase, con una nota corta si quieres. Koala guarda cada día, así que puedes ver cómo te ha ido con un objetivo."
+        },
+        {
           "q": "¿Es gratis?",
           "a": "Sí, y siempre lo será. Sin anuncios, sin suscripción, sin compras dentro de la app y sin cuenta."
         },
@@ -175,6 +183,10 @@
         {
           "q": "O que é o Koala?",
           "a": "Um app gratuito de jiu-jitsu brasileiro (BJJ), com kimono ou no-gi. Você escolhe uma meta, como uma finalização, uma raspagem, uma queda ou uma saída. Vai atrás dela toda vez que rolar. Depois do treino responde uma pergunta: conseguiu? O Koala diz como vai cada meta: primeira vez, melhorando, ficando mais difícil ou pegou o jeito."
+        },
+        {
+          "q": "O Koala é um diário de BJJ?",
+          "a": "Um diferente. Sem textos longos nem listas de técnicas: uma meta e uma resposta depois do treino, com uma nota curta se você quiser. O Koala guarda cada dia, então dá para ver como foi uma meta."
         },
         {
           "q": "É gratuito?",
