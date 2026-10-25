@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["98LWMAJAC6.com.stanete.koala"],
+        "components": [
+          { "/": "/koala/add", "comment": "A plan from an AI, after #: opens in Koala" },
+          { "/": "/koala/add/", "comment": "The same, with a slash" }
+        ]
+      }
+    ]
+  }
+}
