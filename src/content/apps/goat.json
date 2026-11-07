@@ -1,0 +1,79 @@
+{
+  "name": "Goat",
+  "date": "2026-11-07",
+  "screenshots": 4,
+  "languages": {
+    "en": {
+      "language": "English",
+      "tagline": "a gym log that tells you what to lift next",
+      "pitch": "Pick your exercises and tick your sets. When you hit every rep, Goat adds weight next time. Home shows which muscles you trained and how they are doing: yellow is maintaining, green is improving, blue is optimal.",
+      "free": "Goat is free, and always will be. No account, no tracking. Your workouts stay on your phone.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact",
+      "screenshot": "Goat, screenshot {n} of {total}",
+      "beta": "Try the beta",
+      "iphone": {
+        "title": "Goat is ready to try on your iPhone",
+        "text": "Get TestFlight, Apple’s app for trying apps before they come out. Then open this page on your iPhone and tap Join the beta.",
+        "join": "Join the beta",
+        "getTestFlight": "Get TestFlight"
+      },
+      "android": {
+        "title": "The beta is by invitation",
+        "text": "Email me and say if you use iPhone or Android. I’ll add you and send you the link.",
+        "send": "Email me",
+        "subject": "Goat beta",
+        "body": "Hi David, I’d like to try Goat. My phone is: "
+      }
+    },
+    "es": {
+      "language": "Español",
+      "tagline": "el registro del gimnasio que te dice qué levantar",
+      "pitch": "Elige tus ejercicios y marca tus series. Cuando completas todas las repeticiones, Goat sube el peso la próxima vez. El inicio muestra qué músculos has entrenado y cómo van: amarillo es mantener, verde es mejorar y azul es óptimo.",
+      "free": "Goat es gratis, y siempre lo será. Sin cuenta y sin rastreo. Tus entrenos se quedan en tu móvil.",
+      "privacy": "Política de privacidad",
+      "terms": "Condiciones del servicio",
+      "contact": "Contacto",
+      "screenshot": "Goat, captura {n} de {total}",
+      "beta": "Prueba la beta",
+      "iphone": {
+        "title": "Ya puedes probar Goat en tu iPhone",
+        "text": "Descarga TestFlight, la app de Apple para probar apps antes de que se publiquen. Luego abre esta página en tu iPhone y toca «Unirme a la beta».",
+        "join": "Unirme a la beta",
+        "getTestFlight": "Descargar TestFlight"
+      },
+      "android": {
+        "title": "La beta es por invitación",
+        "text": "Escríbeme y dime si usas iPhone o Android. Te añado y te mando el enlace.",
+        "send": "Escríbeme",
+        "subject": "Beta de Goat",
+        "body": "Hola, David. Me gustaría probar Goat. Mi móvil es: "
+      }
+    },
+    "pt": {
+      "language": "Português",
+      "tagline": "o registro de academia que diz o que levantar",
+      "pitch": "Escolha seus exercícios e marque suas séries. Quando você faz todas as repetições, o Goat aumenta o peso na próxima vez. O início mostra quais músculos você treinou e como eles estão: amarelo é manter, verde é melhorar e azul é ótimo.",
+      "free": "O Goat é gratuito, e sempre será. Sem conta e sem rastreamento. Seus treinos ficam no seu celular.",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "contact": "Contato",
+      "screenshot": "Goat, captura {n} de {total}",
+      "beta": "Teste o beta",
+      "iphone": {
+        "title": "O Goat já pode ser testado no seu iPhone",
+        "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em Entrar no beta.",
+        "join": "Entrar no beta",
+        "getTestFlight": "Baixar o TestFlight"
+      },
+      "android": {
+        "title": "O beta é por convite",
+        "text": "Me mande um e-mail dizendo se você usa iPhone ou Android. Eu adiciono você e mando o link.",
+        "send": "Mandar e-mail",
+        "subject": "Beta do Goat",
+        "body": "Oi, David. Quero testar o Goat. Meu celular é: "
+      }
+    }
+  }
+}

@@ -122,6 +122,8 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
       {/* A title and a few lines, as on a post: the pictures below do the selling. */}
       {/* The koala breathes, sleeps from 22:00 to 7:00 by the visitor's clock, and jumps
           when clicked, as in the app. Decoration only, so screen readers skip it. */}
+      {app.id === "koala" ? (
+      <Fragment>
       <div class="animate -ml-3">
         <div class="koala" aria-hidden="true">
           <div class="koala-jump">
@@ -161,6 +163,10 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
           });
         })();
       </script>
+      </Fragment>
+      ) : (
+        <img class="animate rounded-[22%]" src={`${assets}/icon.png`} alt="" width="96" height="96" />
+      )}
       <h1 class="animate mt-6 mb-4 text-2xl font-semibold text-black dark:text-white text-balance">
         {name}: {texts.tagline}
       </h1>
