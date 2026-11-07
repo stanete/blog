@@ -5,9 +5,9 @@
   "languages": {
     "en": {
       "language": "English",
-      "tagline": "a gym log that tells you what to lift next",
-      "pitch": "Pick your exercises and tick your sets. When you hit every rep, Goat adds weight next time. Home shows which muscles you trained and how they are doing: yellow is maintaining, green is improving, blue is optimal.",
-      "free": "Goat is free, and always will be. No account, no tracking. Your workouts stay on your phone.",
+      "tagline": "the gym log I always wanted, free",
+      "pitch": "I lift, and I wanted one app that logs every set, works out what I should lift next time, tells me when a deload week is due, and shows which muscles I’ve been skipping. It didn’t exist, so I’m making it. Plan your own training or let Goat carry the maths. It never tells you how to train.",
+      "free": "Goat is free, forever. No ads, no account, no subscription, nothing to sell. Your workouts stay on your phone. If something’s missing or broken, write to me: I read everything, and Goat gets better because of it.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact",
@@ -29,9 +29,9 @@
     },
     "es": {
       "language": "Español",
-      "tagline": "el registro del gimnasio que te dice qué levantar",
-      "pitch": "Elige tus ejercicios y marca tus series. Cuando completas todas las repeticiones, Goat sube el peso la próxima vez. El inicio muestra qué músculos has entrenado y cómo van: amarillo es mantener, verde es mejorar y azul es óptimo.",
-      "free": "Goat es gratis, y siempre lo será. Sin cuenta y sin rastreo. Tus entrenos se quedan en tu móvil.",
+      "tagline": "el registro de gimnasio que siempre quise, gratis",
+      "pitch": "Entreno, y quería una sola app que apunte cada serie, calcule qué levantar la próxima vez, me diga cuándo toca semana de descarga y me enseñe qué músculos me estoy saltando. No existía, así que la estoy haciendo. Planifica tú tu entreno o deja que Goat haga las cuentas. Nunca te dice cómo entrenar.",
+      "free": "Goat es gratis, para siempre. Sin anuncios, sin cuenta, sin suscripción, nada que vender. Tus entrenos se quedan en tu móvil. Si echas algo en falta o algo falla, escríbeme: lo leo todo, y Goat mejora gracias a eso.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
       "contact": "Contacto",
@@ -53,9 +53,9 @@
     },
     "pt": {
       "language": "Português",
-      "tagline": "o registro de academia que diz o que levantar",
-      "pitch": "Escolha seus exercícios e marque suas séries. Quando você faz todas as repetições, o Goat aumenta o peso na próxima vez. O início mostra quais músculos você treinou e como eles estão: amarelo é manter, verde é melhorar e azul é ótimo.",
-      "free": "O Goat é gratuito, e sempre será. Sem conta e sem rastreamento. Seus treinos ficam no seu celular.",
+      "tagline": "o app de academia que eu sempre quis, de graça",
+      "pitch": "Eu treino, e queria um app só que registrasse cada série, calculasse a carga da próxima vez, avisasse quando é hora de uma semana de deload e mostrasse quais músculos eu ando pulando. Não existia, então estou fazendo. Monte seu treino você mesmo ou deixe o Goat fazer as contas. Ele nunca diz como você deve treinar.",
+      "free": "O Goat é grátis, para sempre. Sem anúncios, sem conta, sem assinatura, nada para vender. Seus treinos ficam no seu celular. Se faltar alguma coisa ou algo der errado, me escreve: eu leio tudo, e o Goat melhora por causa disso.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "contact": "Contato",
