@@ -31,38 +31,86 @@
       "faq": [
         {
           "q": "What is GOAT?",
-          "a": "A free gym tracker (also called a workout tracker or workout log) for iPhone and Android. You log every set. GOAT fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
+          "a": "A free gym tracker. You log every set. GOAT fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
         },
         {
           "q": "Do I need a plan?",
-          "a": "No. GOAT never tells you what to train. Start freestyle, or save a workout and start it again next time."
+          "a": "No. GOAT never tells you what to train. Start Freestyle and add exercises as you go, or start a workout you saved."
         },
         {
-          "q": "How does it pick what to lift next time?",
-          "a": "Progressive overload: +1 rep on every set each workout. Once every set has 4 more reps (Muscle growth) or 2 more (Strength), the weight goes up. You can make it one set at a time, or turn it off."
+          "q": "How does GOAT pick what to lift next time?",
+          "a": "Progressive overload: +1 rep on every set each workout. Once every set has 4 more reps (Muscle growth) or 2 more (Strength), the weight goes up. Change it in Settings › Progressive overload."
         },
         {
-          "q": "What’s a deload week?",
-          "a": "The same weights with half the sets, for a week, so you recover. GOAT suggests one when your lifts stall or drop, or after 6 weeks without a break. You decide."
+          "q": "Is GOAT really free?",
+          "a": "Yes, forever. No account, no ads, no subscription, nothing to unlock."
         },
         {
-          "q": "Is it free?",
-          "a": "Yes, and it always will be. No ads, no subscription, no in-app purchases, no account."
+          "q": "The machine I used last time is taken. What now?",
+          "a": "Before your first set, tap ⋯ › “Swap exercise” and pick another one for the same muscle. GOAT compares your best set across machines, so you still know what to beat."
         },
         {
-          "q": "What does GOAT know about me?",
-          "a": "Nothing it sends anywhere. GOAT has no server and no analytics. Your workouts stay on your phone, with a copy in your own iCloud on iPhone if you want one."
+          "q": "Do warm-up sets count?",
+          "a": "No. Add them with ⋯ › “Add warm-up sets” before your first set. They show a W, don’t start the rest timer and are never saved."
         },
         {
-          "q": "Can I bring my history?",
-          "a": "Yes, from Strong, Hevy or Fitbod. Export a CSV there and import it in GOAT’s Settings."
+          "q": "Can I change the rest time?",
+          "a": "Yes. For one exercise: tap its name, then “Rest”. For all of them: Settings › Rest › “Between sets”."
         },
         {
-          "q": "Which phones and languages?",
-          "a": "iPhone and Android, in English, Spanish and Portuguese."
+          "q": "Can I log from the Lock Screen or my Watch?",
+          "a": "Yes. Between sets, tap “Done” on the Lock Screen, or tick the set on Apple Watch. Your iPhone keeps the workout."
         },
         {
-          "q": "Who makes it?",
+          "q": "Can I fix a past workout?",
+          "a": "Yes. Open it from “All workouts” and tap “Edit workout”."
+        },
+        {
+          "q": "What do yellow, green and blue mean?",
+          "a": "How many sets a muscle got in the last 7 days. Yellow: 1 set, enough to keep it. Green: 4, enough to grow it. Blue: 8 for Strength or 10 for Muscle growth, the most that pays off. Purple only ever means a deload week."
+        },
+        {
+          "q": "What is “Reps in reserve”?",
+          "a": "How many more reps you could have done in your last set. GOAT guesses it from your sets; tap to correct it. 0: next time stays the same. 1–2: +1 rep on every set. 3 or more: +2 reps."
+        },
+        {
+          "q": "What is a deload week?",
+          "a": "A week at the same weights with half the sets, so you recover. GOAT suggests one when your muscles get weaker two workouts in a row, when none gets stronger three in a row, or after 6 weeks without a break. To stop the suggestions, turn off “Suggest deload weeks” in Settings."
+        },
+        {
+          "q": "How does GOAT compare different exercises?",
+          "a": "By muscle. Your best set becomes an estimated one-rep max (1RM), so a pull-up and a lat pulldown can be compared."
+        },
+        {
+          "q": "Why didn’t my % go up after an extra set?",
+          "a": "The % compares your best set of 1–12 reps with last time, as an estimated 1RM. Extra sets fill the muscle’s circles instead."
+        },
+        {
+          "q": "What’s a PR?",
+          "a": "Your best set ever on that exercise."
+        },
+        {
+          "q": "Do pull-ups and dips count my body weight?",
+          "a": "Yes. Add your weight in Settings › Body; GOAT also asks for it the first time."
+        },
+        {
+          "q": "When is a muscle rested?",
+          "a": "48 hours after its last set. The Lock Screen widget shows which ones are."
+        },
+        {
+          "q": "Where is my data?",
+          "a": "On your phone, in your own iCloud on iPhone or the Google backup on Android. Export it as CSV any time in Settings."
+        },
+        {
+          "q": "Can I bring my history from Strong, Hevy or Fitbod?",
+          "a": "Yes: Settings › “Import from GOAT, Strong, Hevy or Fitbod”. Your old workouts are added to the ones here."
+        },
+        {
+          "q": "Something’s missing.",
+          "a": "Tell me: Settings › “Send feedback”. I read everything."
+        },
+        {
+          "q": "Who makes GOAT?",
           "a": "David Stanete, who lifts and builds GOAT in his spare time. Ideas and bugs go to davidstanete@gmail.com."
         }
       ]
@@ -95,38 +143,86 @@
       "faq": [
         {
           "q": "¿Qué es GOAT?",
-          "a": "Una app gratis para apuntar tus entrenos de gym, para iPhone y Android. Apuntas cada serie. GOAT rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
+          "a": "Una app de gym gratis para apuntar tus entrenos. Apuntas cada serie. GOAT rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
         },
         {
           "q": "¿Necesito un plan?",
-          "a": "No. GOAT nunca te dice qué entrenar. Empieza en libre, o guarda un entreno y repítelo la próxima vez."
+          "a": "No. GOAT nunca te dice qué entrenar. Empieza en Libre y añade ejercicios sobre la marcha, o empieza un entreno que hayas guardado."
         },
         {
-          "q": "¿Cómo decide qué levantar la próxima vez?",
-          "a": "Sobrecarga progresiva: +1 rep en cada serie en cada entreno. Cuando todas suman 4 reps más (Hipertrofia) o 2 más (Fuerza), sube el peso. Puedes hacerlo serie a serie o desactivarlo."
+          "q": "¿Cómo decide GOAT qué levantar la próxima vez?",
+          "a": "Sobrecarga progresiva: +1 rep en cada serie en cada entreno. Cuando todas suman 4 reps más (Hipertrofia) o 2 más (Fuerza), sube el peso. Cámbialo en Ajustes › Sobrecarga progresiva."
+        },
+        {
+          "q": "¿GOAT es gratis de verdad?",
+          "a": "Sí, para siempre. Sin cuenta, sin anuncios, sin suscripción, nada que desbloquear."
+        },
+        {
+          "q": "La máquina que usé la última vez está ocupada. ¿Y ahora?",
+          "a": "Antes de tu primera serie, toca ⋯ › «Cambiar ejercicio» y elige otro para el mismo músculo. GOAT compara tu mejor serie entre máquinas, así sigues sabiendo qué superar."
+        },
+        {
+          "q": "¿Cuentan las series de calentamiento?",
+          "a": "No. Añádelas con ⋯ › «Añadir calentamiento» antes de tu primera serie. Llevan una C, no inician el descanso y nunca se guardan."
+        },
+        {
+          "q": "¿Puedo cambiar el tiempo de descanso?",
+          "a": "Sí. Para un ejercicio: toca su nombre y luego «Descanso». Para todos: Ajustes › Descanso › «Entre series»."
+        },
+        {
+          "q": "¿Puedo apuntar desde la pantalla de bloqueo o el Watch?",
+          "a": "Sí. Entre series, toca «Hecho» en la pantalla de bloqueo o marca la serie en el Apple Watch. Tu iPhone guarda el entreno."
+        },
+        {
+          "q": "¿Puedo corregir un entreno pasado?",
+          "a": "Sí. Ábrelo desde «Todos los entrenos» y toca «Editar entreno»."
+        },
+        {
+          "q": "¿Qué significan el amarillo, el verde y el azul?",
+          "a": "Cuántas series ha hecho un músculo en los últimos 7 días. Amarillo: 1 serie, basta para mantenerlo. Verde: 4, basta para que crezca. Azul: 8 para Fuerza o 10 para Hipertrofia, lo máximo que compensa. El morado solo significa semana de descarga."
+        },
+        {
+          "q": "¿Qué son las «Reps en reserva»?",
+          "a": "Cuántas reps más podrías haber hecho en tu última serie. GOAT lo deduce de tus series; toca para corregirlo. 0: la próxima vez se queda igual. 1–2: +1 rep en cada serie. 3 o más: +2 reps."
         },
         {
           "q": "¿Qué es una semana de descarga?",
-          "a": "Los mismos pesos con la mitad de series durante una semana, para recuperarte. GOAT te sugiere una cuando tus marcas se estancan o bajan, o tras 6 semanas sin parar. Tú decides."
+          "a": "Una semana con los mismos pesos y la mitad de series, para recuperarte. GOAT te sugiere una cuando tus músculos se debilitan dos entrenos seguidos, cuando ninguno se fortalece en tres seguidos, o tras 6 semanas sin parar. Para no verlas, desactiva «Sugerir semanas de descarga» en Ajustes."
         },
         {
-          "q": "¿Es gratis?",
-          "a": "Sí, y siempre lo será. Sin anuncios, sin suscripción, sin compras dentro de la app y sin cuenta."
+          "q": "¿Cómo compara GOAT ejercicios distintos?",
+          "a": "Por músculo. Tu mejor serie se convierte en un 1RM estimado, así se pueden comparar unas dominadas y un jalón al pecho."
         },
         {
-          "q": "¿Qué sabe GOAT de mí?",
-          "a": "Nada que mande a ningún sitio. GOAT no tiene servidor ni analíticas. Tus entrenos se quedan en tu móvil, con una copia en tu propio iCloud en iPhone si quieres."
+          "q": "¿Por qué no subió mi % tras una serie extra?",
+          "a": "El % compara tu mejor serie de 1–12 reps con la última vez, como 1RM estimado. Las series extra llenan los círculos del músculo."
         },
         {
-          "q": "¿Puedo traer mi historial?",
-          "a": "Sí, desde Strong, Hevy o Fitbod. Exporta un CSV allí e impórtalo en los Ajustes de GOAT."
+          "q": "¿Qué es un PR?",
+          "a": "Tu mejor serie de siempre en ese ejercicio."
         },
         {
-          "q": "¿Qué móviles e idiomas?",
-          "a": "iPhone y Android, en español, inglés y portugués."
+          "q": "¿Las dominadas y los fondos cuentan mi peso corporal?",
+          "a": "Sí. Añade tu peso en Ajustes › Cuerpo; GOAT también te lo pide la primera vez."
         },
         {
-          "q": "¿Quién la hace?",
+          "q": "¿Cuándo está descansado un músculo?",
+          "a": "48 horas después de su última serie. El widget de la pantalla de bloqueo te dice cuáles lo están."
+        },
+        {
+          "q": "¿Dónde están mis datos?",
+          "a": "En tu móvil, en tu propio iCloud en iPhone o en la copia de Google en Android. Expórtalos en CSV cuando quieras en Ajustes."
+        },
+        {
+          "q": "¿Puedo traer mi historial de Strong, Hevy o Fitbod?",
+          "a": "Sí: Ajustes › «Importar de GOAT, Strong, Hevy o Fitbod». Tus entrenos antiguos se suman a los de aquí."
+        },
+        {
+          "q": "Falta algo.",
+          "a": "Cuéntamelo: Ajustes › «Enviar comentarios». Lo leo todo."
+        },
+        {
+          "q": "¿Quién hace GOAT?",
           "a": "David Stanete, que entrena y hace GOAT en su tiempo libre. Ideas y fallos a davidstanete@gmail.com."
         }
       ]
@@ -159,38 +255,86 @@
       "faq": [
         {
           "q": "O que é o GOAT?",
-          "a": "Um app grátis para registrar treinos na academia, para iPhone e Android. Você registra cada série. O GOAT preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
+          "a": "Um app grátis para registrar seus treinos na academia. Você registra cada série. O GOAT preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
         },
         {
           "q": "Preciso de um plano?",
-          "a": "Não. O GOAT nunca diz o que você deve treinar. Comece no livre, ou salve um treino e repita na próxima vez."
+          "a": "Não. O GOAT nunca diz o que você deve treinar. Comece no Livre e vá adicionando exercícios, ou comece um treino que você salvou."
         },
         {
-          "q": "Como ele decide a carga da próxima vez?",
-          "a": "Sobrecarga progressiva: +1 rep em cada série a cada treino. Quando todas ganham 4 reps a mais (Hipertrofia) ou 2 a mais (Força), a carga sobe. Dá para fazer uma série de cada vez, ou desligar."
+          "q": "Como o GOAT decide a carga da próxima vez?",
+          "a": "Sobrecarga progressiva: +1 rep em cada série a cada treino. Quando todas ganham 4 reps a mais (Hipertrofia) ou 2 a mais (Força), a carga sobe. Mude em Ajustes › Sobrecarga progressiva."
+        },
+        {
+          "q": "O GOAT é grátis mesmo?",
+          "a": "Sim, para sempre. Sem conta, sem anúncios, sem assinatura, nada para desbloquear."
+        },
+        {
+          "q": "O aparelho que usei da última vez está ocupado. E agora?",
+          "a": "Antes da primeira série, toque ⋯ › «Trocar exercício» e escolha outro para o mesmo músculo. O GOAT compara sua melhor série entre aparelhos, então você ainda sabe o que superar."
+        },
+        {
+          "q": "As séries de aquecimento contam?",
+          "a": "Não. Adicione com ⋯ › «Adicionar aquecimento» antes da primeira série. Elas mostram um A, não iniciam o descanso e nunca são salvas."
+        },
+        {
+          "q": "Posso mudar o tempo de descanso?",
+          "a": "Sim. Para um exercício: toque no nome dele e depois em «Descanso». Para todos: Ajustes › Descanso › «Entre séries»."
+        },
+        {
+          "q": "Posso registrar pela Tela Bloqueada ou pelo Watch?",
+          "a": "Sim. Entre as séries, toque em «Pronto» na Tela Bloqueada ou marque a série no Apple Watch. Seu iPhone guarda o treino."
+        },
+        {
+          "q": "Posso corrigir um treino anterior?",
+          "a": "Sim. Abra em «Todos os treinos» e toque em «Editar treino»."
+        },
+        {
+          "q": "O que significam amarelo, verde e azul?",
+          "a": "Quantas séries um músculo recebeu nos últimos 7 dias. Amarelo: 1 série, o bastante para manter. Verde: 4, o bastante para crescer. Azul: 8 para Força ou 10 para Hipertrofia, o máximo que compensa. Roxo só significa semana de deload."
+        },
+        {
+          "q": "O que são «Reps na reserva»?",
+          "a": "Quantas reps a mais você ainda conseguiria fazer na última série. O GOAT deduz pelas suas séries; toque para corrigir. 0: a próxima vez fica igual. 1–2: +1 rep em cada série. 3 ou mais: +2 reps."
         },
         {
           "q": "O que é uma semana de deload?",
-          "a": "As mesmas cargas com metade das séries durante uma semana, para você se recuperar. O GOAT sugere uma quando suas cargas estagnam ou caem, ou depois de 6 semanas sem pausa. Você decide."
+          "a": "Uma semana com as mesmas cargas e metade das séries, para você se recuperar. O GOAT sugere uma quando seus músculos ficam mais fracos dois treinos seguidos, quando nenhum fica mais forte em três seguidos, ou depois de 6 semanas sem pausa. Para não vê-las, desligue «Sugerir semanas de deload» nos Ajustes."
         },
         {
-          "q": "É grátis?",
-          "a": "Sim, e sempre vai ser. Sem anúncios, sem assinatura, sem compras no app e sem conta."
+          "q": "Como o GOAT compara exercícios diferentes?",
+          "a": "Por músculo. Sua melhor série vira um 1RM estimado, assim dá para comparar uma barra fixa com uma puxada frontal."
         },
         {
-          "q": "O que o GOAT sabe sobre mim?",
-          "a": "Nada que ele mande para algum lugar. O GOAT não tem servidor nem analytics. Seus treinos ficam no seu celular, com uma cópia no seu próprio iCloud no iPhone, se você quiser."
+          "q": "Por que meu % não subiu depois de uma série extra?",
+          "a": "O % compara sua melhor série de 1–12 reps com a última vez, como 1RM estimado. Séries extras preenchem os círculos do músculo."
         },
         {
-          "q": "Posso trazer meu histórico?",
-          "a": "Sim, do Strong, Hevy ou Fitbod. Exporte um CSV lá e importe nos Ajustes do GOAT."
+          "q": "O que é um PR?",
+          "a": "Sua melhor série de todas naquele exercício."
         },
         {
-          "q": "Quais celulares e idiomas?",
-          "a": "iPhone e Android, em português, inglês e espanhol."
+          "q": "Barra fixa e paralelas contam meu peso corporal?",
+          "a": "Sim. Adicione seu peso em Ajustes › Corpo; o GOAT também pergunta na primeira vez."
         },
         {
-          "q": "Quem faz?",
+          "q": "Quando um músculo está descansado?",
+          "a": "48 horas depois da última série. O widget da Tela Bloqueada mostra quais estão."
+        },
+        {
+          "q": "Onde ficam meus dados?",
+          "a": "No seu celular, no seu próprio iCloud no iPhone ou no backup do Google no Android. Exporte em CSV quando quiser nos Ajustes."
+        },
+        {
+          "q": "Posso trazer meu histórico do Strong, Hevy ou Fitbod?",
+          "a": "Sim: Ajustes › «Importar do GOAT, Strong, Hevy ou Fitbod». Seus treinos antigos se somam aos daqui."
+        },
+        {
+          "q": "Está faltando algo.",
+          "a": "Me conta: Ajustes › «Enviar feedback». Eu leio tudo."
+        },
+        {
+          "q": "Quem faz o GOAT?",
           "a": "David Stanete, que treina e faz o GOAT no tempo livre. Ideias e bugs para davidstanete@gmail.com."
         }
       ]
