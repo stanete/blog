@@ -5,9 +5,9 @@
   "languages": {
     "en": {
       "language": "English",
-      "tagline": "hit start, add exercises as you go",
-      "pitch": "Hit start and add exercises as you go. Goat tells you what to lift next time, when to take a deload week, and which muscles you’re skipping. That’s the whole app.",
-      "free": "Goat is free, and always will be. No account, no tracking.",
+      "tagline": "the ultimate gym tracker",
+      "pitch": "A gym and workout tracker. Log every set, and Goat works out your progressive overload: what to lift next time, and when to take a deload week. It shows which muscles you’ve trained and which you’re skipping. The features of a paid gym tracker, free forever.",
+      "free": "Goat is free, and always will be. No subscription, no account, no tracking.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact",
@@ -26,12 +26,12 @@
         "subject": "Goat beta",
         "body": "Hi David, I’d like to try Goat. My phone is: "
       },
-      "description": "Goat is a free gym log: hit start, add exercises as you go, and it works out what to lift next time. No account, no ads, no tracking.",
+      "description": "Goat is a free gym and workout tracker: log every set, get your progressive overload worked out, and see which muscles you’re skipping. No subscription, no account, no ads.",
       "faqTitle": "Questions",
       "faq": [
         {
           "q": "What is Goat?",
-          "a": "A free gym log. You hit start and add exercises as you go. Goat fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
+          "a": "A free gym tracker (also called a workout tracker or workout log) for iPhone and Android. You log every set. Goat fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
         },
         {
           "q": "Do I need a plan?",
@@ -69,9 +69,9 @@
     },
     "es": {
       "language": "Español",
-      "tagline": "dale a empezar y añade ejercicios sobre la marcha",
-      "pitch": "Dale a empezar y añade ejercicios sobre la marcha. Goat te dice qué levantar la próxima vez, cuándo toca semana de descarga y qué músculos te estás saltando. Y ya está, la app es solo eso.",
-      "free": "Goat es gratis, y siempre lo será. Sin cuenta y sin rastreo.",
+      "tagline": "la app de gym definitiva",
+      "pitch": "Una app para apuntar tus entrenos de gym. Apunta cada serie y Goat calcula tu sobrecarga progresiva: qué levantar la próxima vez y cuándo toca semana de descarga. Te enseña qué músculos has entrenado y cuáles te saltas. Lo que hace una app de gym de pago, gratis para siempre.",
+      "free": "Goat es gratis, y siempre lo será. Sin suscripción, sin cuenta y sin rastreo.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
       "contact": "Contacto",
@@ -90,12 +90,12 @@
         "subject": "Beta de Goat",
         "body": "Hola, David. Me gustaría probar Goat. Mi móvil es: "
       },
-      "description": "Goat es un registro de gym gratis: dale a empezar, añade ejercicios sobre la marcha y te calcula qué levantar la próxima vez. Sin cuenta, sin anuncios y sin rastreo.",
+      "description": "Goat es una app gratis para apuntar tus entrenos de gym: apunta cada serie, calcula tu sobrecarga progresiva y te enseña qué músculos te saltas. Sin suscripción, sin cuenta y sin anuncios.",
       "faqTitle": "Preguntas",
       "faq": [
         {
           "q": "¿Qué es Goat?",
-          "a": "Un registro de gym gratis. Le das a empezar y añades ejercicios sobre la marcha. Goat rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
+          "a": "Una app gratis para apuntar tus entrenos de gym, para iPhone y Android. Apuntas cada serie. Goat rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
         },
         {
           "q": "¿Necesito un plan?",
@@ -133,9 +133,9 @@
     },
     "pt": {
       "language": "Português",
-      "tagline": "toque em começar e vá adicionando exercícios",
-      "pitch": "Toque em começar e vá adicionando exercícios. O Goat diz o que levantar na próxima vez, quando fazer uma semana de deload e quais músculos você anda pulando. O app é só isso.",
-      "free": "O Goat é grátis, e sempre vai ser. Sem conta, sem rastreamento.",
+      "tagline": "o app de treino definitivo",
+      "pitch": "Um app para registrar seus treinos na academia. Registre cada série e o Goat calcula sua sobrecarga progressiva: o que levantar na próxima vez e quando fazer uma semana de deload. Ele mostra quais músculos você treinou e quais está pulando. O que um app de treino pago faz, grátis para sempre.",
+      "free": "O Goat é grátis, e sempre vai ser. Sem assinatura, sem conta, sem rastreamento.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "contact": "Contato",
@@ -154,12 +154,12 @@
         "subject": "Beta do Goat",
         "body": "Oi, David. Quero testar o Goat. Meu celular é: "
       },
-      "description": "O Goat é um diário de treino grátis: toque em começar, vá adicionando exercícios e ele calcula a carga da próxima vez. Sem conta, sem anúncios, sem rastreamento.",
+      "description": "O Goat é um app grátis para registrar seus treinos na academia: registre cada série, tenha sua sobrecarga progressiva calculada e veja quais músculos você está pulando. Sem assinatura, sem conta, sem anúncios.",
       "faqTitle": "Perguntas",
       "faq": [
         {
           "q": "O que é o Goat?",
-          "a": "Um diário de treino grátis. Você toca em começar e vai adicionando exercícios. O Goat preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
+          "a": "Um app grátis para registrar treinos na academia, para iPhone e Android. Você registra cada série. O Goat preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
         },
         {
           "q": "Preciso de um plano?",
