@@ -1,20 +1,20 @@
 {
-  "name": "Goat",
+  "name": "GOAT",
   "date": "2026-11-07",
   "screenshots": 6,
   "languages": {
     "en": {
       "language": "English",
       "tagline": "the ultimate gym tracker",
-      "pitch": "A gym and workout tracker. Log every set, and Goat works out your progressive overload: what to lift next time, and when to take a deload week. It shows which muscles you’ve trained and which you’re skipping. The features of a paid gym tracker, free forever.",
-      "free": "Goat is free, and always will be. No subscription, no account, no tracking.",
+      "pitch": "A gym and workout tracker. Log every set, and GOAT works out your progressive overload: what to lift next time, and when to take a deload week. It shows which muscles you’ve trained and which you’re skipping. The features of a paid gym tracker, free forever.",
+      "free": "GOAT is free, and always will be. No subscription, no account, no tracking.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact",
-      "screenshot": "Goat, screenshot {n} of {total}",
+      "screenshot": "GOAT, screenshot {n} of {total}",
       "beta": "Try the beta",
       "iphone": {
-        "title": "Goat is ready to try on your iPhone",
+        "title": "GOAT is ready to try on your iPhone",
         "text": "Get TestFlight, Apple’s app for trying apps before they come out. Then open this page on your iPhone and tap Join the beta.",
         "join": "Join the beta",
         "getTestFlight": "Get TestFlight"
@@ -23,19 +23,19 @@
         "title": "The beta is by invitation",
         "text": "Email me and say if you use iPhone or Android. I’ll add you and send you the link.",
         "send": "Email me",
-        "subject": "Goat beta",
-        "body": "Hi David, I’d like to try Goat. My phone is: "
+        "subject": "GOAT beta",
+        "body": "Hi David, I’d like to try GOAT. My phone is: "
       },
-      "description": "Goat is a free gym and workout tracker: log every set, get your progressive overload worked out, and see which muscles you’re skipping. No subscription, no account, no ads.",
+      "description": "GOAT is a free gym and workout tracker: log every set, get your progressive overload worked out, and see which muscles you’re skipping. No subscription, no account, no ads.",
       "faqTitle": "Questions",
       "faq": [
         {
-          "q": "What is Goat?",
-          "a": "A free gym tracker (also called a workout tracker or workout log) for iPhone and Android. You log every set. Goat fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
+          "q": "What is GOAT?",
+          "a": "A free gym tracker (also called a workout tracker or workout log) for iPhone and Android. You log every set. GOAT fills in last time’s weights, tells you what to lift next time, and shows how many sets each muscle got in the last 7 days."
         },
         {
           "q": "Do I need a plan?",
-          "a": "No. Goat never tells you what to train. Start freestyle, or save a workout and start it again next time."
+          "a": "No. GOAT never tells you what to train. Start freestyle, or save a workout and start it again next time."
         },
         {
           "q": "How does it pick what to lift next time?",
@@ -43,19 +43,19 @@
         },
         {
           "q": "What’s a deload week?",
-          "a": "The same weights with half the sets, for a week, so you recover. Goat suggests one when your lifts stall or drop, or after 6 weeks without a break. You decide."
+          "a": "The same weights with half the sets, for a week, so you recover. GOAT suggests one when your lifts stall or drop, or after 6 weeks without a break. You decide."
         },
         {
           "q": "Is it free?",
           "a": "Yes, and it always will be. No ads, no subscription, no in-app purchases, no account."
         },
         {
-          "q": "What does Goat know about me?",
-          "a": "Nothing it sends anywhere. Goat has no server and no analytics. Your workouts stay on your phone, with a copy in your own iCloud on iPhone if you want one."
+          "q": "What does GOAT know about me?",
+          "a": "Nothing it sends anywhere. GOAT has no server and no analytics. Your workouts stay on your phone, with a copy in your own iCloud on iPhone if you want one."
         },
         {
           "q": "Can I bring my history?",
-          "a": "Yes, from Strong, Hevy or Fitbod. Export a CSV there and import it in Goat’s Settings."
+          "a": "Yes, from Strong, Hevy or Fitbod. Export a CSV there and import it in GOAT’s Settings."
         },
         {
           "q": "Which phones and languages?",
@@ -63,22 +63,22 @@
         },
         {
           "q": "Who makes it?",
-          "a": "David Stanete, who lifts and builds Goat in his spare time. Ideas and bugs go to davidstanete@gmail.com."
+          "a": "David Stanete, who lifts and builds GOAT in his spare time. Ideas and bugs go to davidstanete@gmail.com."
         }
       ]
     },
     "es": {
       "language": "Español",
       "tagline": "la app de gym definitiva",
-      "pitch": "Una app para apuntar tus entrenos de gym. Apunta cada serie y Goat calcula tu sobrecarga progresiva: qué levantar la próxima vez y cuándo toca semana de descarga. Te enseña qué músculos has entrenado y cuáles te saltas. Lo que hace una app de gym de pago, gratis para siempre.",
-      "free": "Goat es gratis, y siempre lo será. Sin suscripción, sin cuenta y sin rastreo.",
+      "pitch": "Una app para apuntar tus entrenos de gym. Apunta cada serie y GOAT calcula tu sobrecarga progresiva: qué levantar la próxima vez y cuándo toca semana de descarga. Te enseña qué músculos has entrenado y cuáles te saltas. Lo que hace una app de gym de pago, gratis para siempre.",
+      "free": "GOAT es gratis, y siempre lo será. Sin suscripción, sin cuenta y sin rastreo.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
       "contact": "Contacto",
-      "screenshot": "Goat, captura {n} de {total}",
+      "screenshot": "GOAT, captura {n} de {total}",
       "beta": "Prueba la beta",
       "iphone": {
-        "title": "Ya puedes probar Goat en tu iPhone",
+        "title": "Ya puedes probar GOAT en tu iPhone",
         "text": "Descarga TestFlight, la app de Apple para probar apps antes de que se publiquen. Luego abre esta página en tu iPhone y toca «Unirme a la beta».",
         "join": "Unirme a la beta",
         "getTestFlight": "Descargar TestFlight"
@@ -87,19 +87,19 @@
         "title": "La beta es por invitación",
         "text": "Escríbeme y dime si usas iPhone o Android. Te añado y te mando el enlace.",
         "send": "Escríbeme",
-        "subject": "Beta de Goat",
-        "body": "Hola, David. Me gustaría probar Goat. Mi móvil es: "
+        "subject": "Beta de GOAT",
+        "body": "Hola, David. Me gustaría probar GOAT. Mi móvil es: "
       },
-      "description": "Goat es una app gratis para apuntar tus entrenos de gym: apunta cada serie, calcula tu sobrecarga progresiva y te enseña qué músculos te saltas. Sin suscripción, sin cuenta y sin anuncios.",
+      "description": "GOAT es una app gratis para apuntar tus entrenos de gym: apunta cada serie, calcula tu sobrecarga progresiva y te enseña qué músculos te saltas. Sin suscripción, sin cuenta y sin anuncios.",
       "faqTitle": "Preguntas",
       "faq": [
         {
-          "q": "¿Qué es Goat?",
-          "a": "Una app gratis para apuntar tus entrenos de gym, para iPhone y Android. Apuntas cada serie. Goat rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
+          "q": "¿Qué es GOAT?",
+          "a": "Una app gratis para apuntar tus entrenos de gym, para iPhone y Android. Apuntas cada serie. GOAT rellena los pesos de la última vez, te dice qué levantar la próxima y te enseña cuántas series ha hecho cada músculo en los últimos 7 días."
         },
         {
           "q": "¿Necesito un plan?",
-          "a": "No. Goat nunca te dice qué entrenar. Empieza en libre, o guarda un entreno y repítelo la próxima vez."
+          "a": "No. GOAT nunca te dice qué entrenar. Empieza en libre, o guarda un entreno y repítelo la próxima vez."
         },
         {
           "q": "¿Cómo decide qué levantar la próxima vez?",
@@ -107,19 +107,19 @@
         },
         {
           "q": "¿Qué es una semana de descarga?",
-          "a": "Los mismos pesos con la mitad de series durante una semana, para recuperarte. Goat te sugiere una cuando tus marcas se estancan o bajan, o tras 6 semanas sin parar. Tú decides."
+          "a": "Los mismos pesos con la mitad de series durante una semana, para recuperarte. GOAT te sugiere una cuando tus marcas se estancan o bajan, o tras 6 semanas sin parar. Tú decides."
         },
         {
           "q": "¿Es gratis?",
           "a": "Sí, y siempre lo será. Sin anuncios, sin suscripción, sin compras dentro de la app y sin cuenta."
         },
         {
-          "q": "¿Qué sabe Goat de mí?",
-          "a": "Nada que mande a ningún sitio. Goat no tiene servidor ni analíticas. Tus entrenos se quedan en tu móvil, con una copia en tu propio iCloud en iPhone si quieres."
+          "q": "¿Qué sabe GOAT de mí?",
+          "a": "Nada que mande a ningún sitio. GOAT no tiene servidor ni analíticas. Tus entrenos se quedan en tu móvil, con una copia en tu propio iCloud en iPhone si quieres."
         },
         {
           "q": "¿Puedo traer mi historial?",
-          "a": "Sí, desde Strong, Hevy o Fitbod. Exporta un CSV allí e impórtalo en los Ajustes de Goat."
+          "a": "Sí, desde Strong, Hevy o Fitbod. Exporta un CSV allí e impórtalo en los Ajustes de GOAT."
         },
         {
           "q": "¿Qué móviles e idiomas?",
@@ -127,22 +127,22 @@
         },
         {
           "q": "¿Quién la hace?",
-          "a": "David Stanete, que entrena y hace Goat en su tiempo libre. Ideas y fallos a davidstanete@gmail.com."
+          "a": "David Stanete, que entrena y hace GOAT en su tiempo libre. Ideas y fallos a davidstanete@gmail.com."
         }
       ]
     },
     "pt": {
       "language": "Português",
       "tagline": "o app de treino definitivo",
-      "pitch": "Um app para registrar seus treinos na academia. Registre cada série e o Goat calcula sua sobrecarga progressiva: o que levantar na próxima vez e quando fazer uma semana de deload. Ele mostra quais músculos você treinou e quais está pulando. O que um app de treino pago faz, grátis para sempre.",
-      "free": "O Goat é grátis, e sempre vai ser. Sem assinatura, sem conta, sem rastreamento.",
+      "pitch": "Um app para registrar seus treinos na academia. Registre cada série e o GOAT calcula sua sobrecarga progressiva: o que levantar na próxima vez e quando fazer uma semana de deload. Ele mostra quais músculos você treinou e quais está pulando. O que um app de treino pago faz, grátis para sempre.",
+      "free": "O GOAT é grátis, e sempre vai ser. Sem assinatura, sem conta, sem rastreamento.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "contact": "Contato",
-      "screenshot": "Goat, captura {n} de {total}",
+      "screenshot": "GOAT, captura {n} de {total}",
       "beta": "Teste o beta",
       "iphone": {
-        "title": "O Goat já pode ser testado no seu iPhone",
+        "title": "O GOAT já pode ser testado no seu iPhone",
         "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em Entrar no beta.",
         "join": "Entrar no beta",
         "getTestFlight": "Baixar o TestFlight"
@@ -151,19 +151,19 @@
         "title": "O beta é por convite",
         "text": "Me mande um e-mail dizendo se você usa iPhone ou Android. Eu adiciono você e mando o link.",
         "send": "Mandar e-mail",
-        "subject": "Beta do Goat",
-        "body": "Oi, David. Quero testar o Goat. Meu celular é: "
+        "subject": "Beta do GOAT",
+        "body": "Oi, David. Quero testar o GOAT. Meu celular é: "
       },
-      "description": "O Goat é um app grátis para registrar seus treinos na academia: registre cada série, tenha sua sobrecarga progressiva calculada e veja quais músculos você está pulando. Sem assinatura, sem conta, sem anúncios.",
+      "description": "O GOAT é um app grátis para registrar seus treinos na academia: registre cada série, tenha sua sobrecarga progressiva calculada e veja quais músculos você está pulando. Sem assinatura, sem conta, sem anúncios.",
       "faqTitle": "Perguntas",
       "faq": [
         {
-          "q": "O que é o Goat?",
-          "a": "Um app grátis para registrar treinos na academia, para iPhone e Android. Você registra cada série. O Goat preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
+          "q": "O que é o GOAT?",
+          "a": "Um app grátis para registrar treinos na academia, para iPhone e Android. Você registra cada série. O GOAT preenche as cargas da última vez, diz o que levantar na próxima e mostra quantas séries cada músculo recebeu nos últimos 7 dias."
         },
         {
           "q": "Preciso de um plano?",
-          "a": "Não. O Goat nunca diz o que você deve treinar. Comece no livre, ou salve um treino e repita na próxima vez."
+          "a": "Não. O GOAT nunca diz o que você deve treinar. Comece no livre, ou salve um treino e repita na próxima vez."
         },
         {
           "q": "Como ele decide a carga da próxima vez?",
@@ -171,19 +171,19 @@
         },
         {
           "q": "O que é uma semana de deload?",
-          "a": "As mesmas cargas com metade das séries durante uma semana, para você se recuperar. O Goat sugere uma quando suas cargas estagnam ou caem, ou depois de 6 semanas sem pausa. Você decide."
+          "a": "As mesmas cargas com metade das séries durante uma semana, para você se recuperar. O GOAT sugere uma quando suas cargas estagnam ou caem, ou depois de 6 semanas sem pausa. Você decide."
         },
         {
           "q": "É grátis?",
           "a": "Sim, e sempre vai ser. Sem anúncios, sem assinatura, sem compras no app e sem conta."
         },
         {
-          "q": "O que o Goat sabe sobre mim?",
-          "a": "Nada que ele mande para algum lugar. O Goat não tem servidor nem analytics. Seus treinos ficam no seu celular, com uma cópia no seu próprio iCloud no iPhone, se você quiser."
+          "q": "O que o GOAT sabe sobre mim?",
+          "a": "Nada que ele mande para algum lugar. O GOAT não tem servidor nem analytics. Seus treinos ficam no seu celular, com uma cópia no seu próprio iCloud no iPhone, se você quiser."
         },
         {
           "q": "Posso trazer meu histórico?",
-          "a": "Sim, do Strong, Hevy ou Fitbod. Exporte um CSV lá e importe nos Ajustes do Goat."
+          "a": "Sim, do Strong, Hevy ou Fitbod. Exporte um CSV lá e importe nos Ajustes do GOAT."
         },
         {
           "q": "Quais celulares e idiomas?",
@@ -191,7 +191,7 @@
         },
         {
           "q": "Quem faz?",
-          "a": "David Stanete, que treina e faz o Goat no tempo livre. Ideias e bugs para davidstanete@gmail.com."
+          "a": "David Stanete, que treina e faz o GOAT no tempo livre. Ideias e bugs para davidstanete@gmail.com."
         }
       ]
     }
