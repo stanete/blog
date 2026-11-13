@@ -21,7 +21,7 @@ Si lo activas, GOAT guarda allí tus entrenos y lee tu sueño, tu peso y tu gras
 
 ## Exportar e importar tus datos
 
-«Exportar como CSV» crea un archivo en tu dispositivo y abre el menú de compartir del sistema. Tú decides adónde va. «Importar de GOAT, Strong, Hevy o Fitbod» lee un archivo que eliges en tu dispositivo; no se sube nada.
+«Exportar en CSV» crea un archivo en tu dispositivo y abre el menú de compartir del sistema. Tú decides adónde va. «Importar de GOAT, Strong, Hevy o Fitbod» lee un archivo que eliges en tu dispositivo; no se sube nada.
 
 ## Compartir una imagen
 
@@ -37,7 +37,7 @@ Si me envías comentarios por email, recibo tu dirección y lo que escribas. Sol
 
 ## Borrar tus datos
 
-«Ajustes › Borrar todos los datos» elimina todo de tu dispositivo al momento. Borrar la app hace lo mismo.
+«Borrar todos los datos» en «Ajustes» elimina todo de tu dispositivo al momento. Borrar la app hace lo mismo.
 
 ## Menores
 

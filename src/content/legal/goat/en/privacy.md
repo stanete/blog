@@ -37,7 +37,7 @@ If you send feedback by email, I receive your email address and whatever you wri
 
 ## Deleting your data
 
-«Settings › Delete all data» removes everything from your device immediately. Deleting the app does the same.
+«Delete all data» in «Settings» removes everything from your device immediately. Deleting the app does the same.
 
 ## Children
 
