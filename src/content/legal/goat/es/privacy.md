@@ -37,7 +37,7 @@ Si me envías comentarios por email, recibo tu dirección y lo que escribas. Sol
 
 ## Borrar tus datos
 
-Ajustes → Borrar todos los datos elimina todo de tu dispositivo al momento. Borrar la app hace lo mismo.
+«Ajustes › Borrar todos los datos» elimina todo de tu dispositivo al momento. Borrar la app hace lo mismo.
 
 ## Menores
 

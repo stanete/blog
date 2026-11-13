@@ -21,7 +21,7 @@ If you turn it on, GOAT saves your workouts there and reads your sleep, body wei
 
 ## Exporting and importing your data
 
-“Export as CSV” creates a file on your device and opens the system share sheet. You decide where the file goes. “Import from GOAT, Strong, Hevy or Fitbod” reads a file you pick on your device; nothing is uploaded.
+«Export as CSV» creates a file on your device and opens the system share sheet. You decide where the file goes. «Import from GOAT, Strong, Hevy or Fitbod» reads a file you pick on your device; nothing is uploaded.
 
 ## Sharing a picture
 
@@ -37,7 +37,7 @@ If you send feedback by email, I receive your email address and whatever you wri
 
 ## Deleting your data
 
-Settings → Delete all data removes everything from your device immediately. Deleting the app does the same.
+«Settings › Delete all data» removes everything from your device immediately. Deleting the app does the same.
 
 ## Children
 

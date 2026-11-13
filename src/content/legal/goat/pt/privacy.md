@@ -37,7 +37,7 @@ Se você enviar feedback por e-mail, recebo seu endereço e o que você escrever
 
 ## Apagar seus dados
 
-Ajustes → Apagar todos os dados remove tudo do seu aparelho na hora. Apagar o app faz o mesmo.
+«Ajustes › Apagar todos os dados» remove tudo do seu aparelho na hora. Apagar o app faz o mesmo.
 
 ## Menores
 
