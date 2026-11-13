@@ -63,11 +63,11 @@
         },
         {
           "q": "Can I fix a past workout?",
-          "a": "Yes. Open it from «All workouts» and tap «Edit workout»."
+          "a": "Yes. Open it from «All workouts» and tap «Edit»."
         },
         {
           "q": "What do yellow, green and blue mean?",
-          "a": "How many sets a muscle got in the last 7 days. Yellow: 1 set, enough to keep it. Green: 4, enough to grow it. Blue: 8 for Strength (more adds little strength) or 10 for Muscle growth (more still helps, a little less each set). Purple only ever means a deload week."
+          "a": "How many sets a muscle got in the last 7 days. Yellow: 1 set, enough to keep it. Green: 4, enough to grow it. Blue: 8 for Strength (more adds little strength) or 10 for Muscle growth (more still helps, a little less each set)."
         },
         {
           "q": "What is «Reps in reserve»?",
@@ -86,8 +86,12 @@
           "a": "The % compares your best set of 1–12 reps with last time, as an estimated 1RM. Extra sets fill the muscle’s circles instead."
         },
         {
+          "q": "Why did my % go up with fewer reps?",
+          "a": "You reached 12 reps (6 for Strength), so the weight went up and reps went back to 8 (4). That’s progress, so the % is the weight’s rise: 140 → 145 kg is ↗ 4%. Tap the % to see it."
+        },
+        {
           "q": "What’s a PR?",
-          "a": "Your best set ever on that exercise."
+          "a": "Your best set ever on that exercise, by estimated 1RM. So 60 kg × 12 beats 70 kg × 5."
         },
         {
           "q": "Do pull-ups and dips count my body weight?",
@@ -175,11 +179,11 @@
         },
         {
           "q": "¿Puedo corregir un entreno pasado?",
-          "a": "Sí. Ábrelo desde «Todos los entrenos» y toca «Editar entreno»."
+          "a": "Sí. Ábrelo desde «Todos los entrenos» y toca «Editar»."
         },
         {
           "q": "¿Qué significan el amarillo, el verde y el azul?",
-          "a": "Cuántas series ha hecho un músculo en los últimos 7 días. Amarillo: 1 serie, basta para mantenerlo. Verde: 4, basta para que crezca. Azul: 8 para Fuerza (más series apenas suman fuerza) o 10 para Hipertrofia (más todavía ayuda, un poco menos con cada serie). El morado solo significa semana de descarga."
+          "a": "Cuántas series ha hecho un músculo en los últimos 7 días. Amarillo: 1 serie, basta para mantenerlo. Verde: 4, basta para que crezca. Azul: 8 para Fuerza (más series apenas suman fuerza) o 10 para Hipertrofia (más todavía ayuda, un poco menos con cada serie)."
         },
         {
           "q": "¿Qué son las «Reps en reserva»?",
@@ -198,8 +202,12 @@
           "a": "El % compara tu mejor serie de 1–12 reps con la última vez, como 1RM estimado. Las series extra llenan los círculos del músculo."
         },
         {
+          "q": "¿Por qué subió mi % con menos reps?",
+          "a": "Llegaste a 12 reps (6 en Fuerza), así que subió el peso y las reps volvieron a 8 (4). Eso es progreso, así que el % es lo que subió el peso: de 140 a 145 kg es ↗ 4%. Toca el % para verlo."
+        },
+        {
           "q": "¿Qué es un PR?",
-          "a": "Tu mejor serie de siempre en ese ejercicio."
+          "a": "Tu mejor serie de siempre en ese ejercicio, por 1RM estimado. Así, 60 kg × 12 supera a 70 kg × 5."
         },
         {
           "q": "¿Las dominadas y los fondos cuentan mi peso corporal?",
@@ -287,11 +295,11 @@
         },
         {
           "q": "Posso corrigir um treino anterior?",
-          "a": "Sim. Abra em «Todos os treinos» e toque em «Editar treino»."
+          "a": "Sim. Abra em «Todos os treinos» e toque em «Editar»."
         },
         {
           "q": "O que significam amarelo, verde e azul?",
-          "a": "Quantas séries um músculo recebeu nos últimos 7 dias. Amarelo: 1 série, o bastante para manter. Verde: 4, o bastante para crescer. Azul: 8 para Força (mais séries quase não somam força) ou 10 para Hipertrofia (mais ainda ajuda, um pouco menos a cada série). Roxo só significa semana de deload."
+          "a": "Quantas séries um músculo recebeu nos últimos 7 dias. Amarelo: 1 série, o bastante para manter. Verde: 4, o bastante para crescer. Azul: 8 para Força (mais séries quase não somam força) ou 10 para Hipertrofia (mais ainda ajuda, um pouco menos a cada série)."
         },
         {
           "q": "O que são «Reps na reserva»?",
@@ -310,8 +318,12 @@
           "a": "O % compara sua melhor série de 1–12 reps com a última vez, como 1RM estimado. Séries extras preenchem os círculos do músculo."
         },
         {
+          "q": "Por que meu % subiu com menos reps?",
+          "a": "Você chegou a 12 reps (6 em Força), então a carga subiu e as reps voltaram para 8 (4). Isso é progresso, então o % é o quanto a carga subiu: de 140 para 145 kg é ↗ 4%. Toque no % para ver."
+        },
+        {
           "q": "O que é um PR?",
-          "a": "Sua melhor série de todas naquele exercício."
+          "a": "Sua melhor série de todas naquele exercício, pelo 1RM estimado. Então 60 kg × 12 supera 70 kg × 5."
         },
         {
           "q": "Barra fixa e paralelas contam meu peso corporal?",
