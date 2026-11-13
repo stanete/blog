@@ -95,7 +95,7 @@
         },
         {
           "q": "When is a muscle rested?",
-          "a": "48 hours after its last set. The Lock Screen widget shows which ones are."
+          "a": "72 hours after its last set for chest, lats, quads, hamstrings and glutes; 48 hours for the rest. The Lock Screen widget shows which ones are."
         },
         {
           "q": "Where is my data?",
@@ -207,7 +207,7 @@
         },
         {
           "q": "¿Cuándo está descansado un músculo?",
-          "a": "48 horas después de su última serie. El widget de la pantalla de bloqueo te dice cuáles lo están."
+          "a": "72 horas después de su última serie para pecho, dorsales, cuádriceps, isquios y glúteos; 48 horas para el resto. El widget de la pantalla de bloqueo te dice cuáles lo están."
         },
         {
           "q": "¿Dónde están mis datos?",
@@ -319,7 +319,7 @@
         },
         {
           "q": "Quando um músculo está descansado?",
-          "a": "48 horas depois da última série. O widget da Tela Bloqueada mostra quais estão."
+          "a": "72 horas depois da última série para peito, dorsais, quadríceps, posteriores e glúteos; 48 horas para o resto. O widget da Tela Bloqueada mostra quais estão."
         },
         {
           "q": "Onde ficam meus dados?",
