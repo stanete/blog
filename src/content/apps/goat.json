@@ -67,11 +67,11 @@
         },
         {
           "q": "What do yellow, green and blue mean?",
-          "a": "How many sets a muscle got in the last 7 days. Yellow: 1 set, enough to keep it. Green: 4, enough to grow it. Blue: 8 for Strength or 10 for Muscle growth, the most that pays off. Purple only ever means a deload week."
+          "a": "How many sets a muscle got in the last 7 days. Yellow: 1 set, enough to keep it. Green: 4, enough to grow it. Blue: 8 for Strength (more adds little strength) or 10 for Muscle growth (more still helps, a little less each set). Purple only ever means a deload week."
         },
         {
           "q": "What is «Reps in reserve»?",
-          "a": "How many more reps you could have done in your last set. GOAT guesses it from your sets; tap to correct it. 0: next time stays the same. 1–2: +1 rep on every set. 3 or more: +2 reps."
+          "a": "How many more reps you could have done in your last set. GOAT guesses it from your sets; tap to correct it. 0: next time stays the same. 1–2: +1 rep on every set. 3 or more: +2 reps, or more weight if every set beat the plan by 4 reps."
         },
         {
           "q": "What is a deload week?",
@@ -179,11 +179,11 @@
         },
         {
           "q": "¿Qué significan el amarillo, el verde y el azul?",
-          "a": "Cuántas series ha hecho un músculo en los últimos 7 días. Amarillo: 1 serie, basta para mantenerlo. Verde: 4, basta para que crezca. Azul: 8 para Fuerza o 10 para Hipertrofia, lo máximo que compensa. El morado solo significa semana de descarga."
+          "a": "Cuántas series ha hecho un músculo en los últimos 7 días. Amarillo: 1 serie, basta para mantenerlo. Verde: 4, basta para que crezca. Azul: 8 para Fuerza (más series apenas suman fuerza) o 10 para Hipertrofia (más todavía ayuda, un poco menos con cada serie). El morado solo significa semana de descarga."
         },
         {
           "q": "¿Qué son las «Reps en reserva»?",
-          "a": "Cuántas reps más podrías haber hecho en tu última serie. GOAT lo deduce de tus series; toca para corregirlo. 0: la próxima vez se queda igual. 1–2: +1 rep en cada serie. 3 o más: +2 reps."
+          "a": "Cuántas reps más podrías haber hecho en tu última serie. GOAT lo deduce de tus series; toca para corregirlo. 0: la próxima vez se queda igual. 1–2: +1 rep en cada serie. 3 o más: +2 reps, o más peso si todas las series superaron el plan en 4 reps."
         },
         {
           "q": "¿Qué es una semana de descarga?",
@@ -291,11 +291,11 @@
         },
         {
           "q": "O que significam amarelo, verde e azul?",
-          "a": "Quantas séries um músculo recebeu nos últimos 7 dias. Amarelo: 1 série, o bastante para manter. Verde: 4, o bastante para crescer. Azul: 8 para Força ou 10 para Hipertrofia, o máximo que compensa. Roxo só significa semana de deload."
+          "a": "Quantas séries um músculo recebeu nos últimos 7 dias. Amarelo: 1 série, o bastante para manter. Verde: 4, o bastante para crescer. Azul: 8 para Força (mais séries quase não somam força) ou 10 para Hipertrofia (mais ainda ajuda, um pouco menos a cada série). Roxo só significa semana de deload."
         },
         {
           "q": "O que são «Reps na reserva»?",
-          "a": "Quantas reps a mais você ainda conseguiria fazer na última série. O GOAT deduz pelas suas séries; toque para corrigir. 0: a próxima vez fica igual. 1–2: +1 rep em cada série. 3 ou mais: +2 reps."
+          "a": "Quantas reps a mais você ainda conseguiria fazer na última série. O GOAT deduz pelas suas séries; toque para corrigir. 0: a próxima vez fica igual. 1–2: +1 rep em cada série. 3 ou mais: +2 reps, ou mais carga se todas as séries passaram do plano em 4 reps."
         },
         {
           "q": "O que é uma semana de deload?",
