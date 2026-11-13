@@ -1,6 +1,6 @@
 ---
 title: "Política de Privacidade"
-updated: "Última atualização: 1 de novembro de 2026"
+updated: "Última atualização: 13 de novembro de 2026"
 ---
 
 O GOAT é um app gratuito criado por David Stanete, desenvolvedor independente com sede na Espanha (“eu”). Esta política explica o que acontece com suas informações quando você usa o GOAT.
@@ -15,9 +15,13 @@ Seus treinos e as séries que você registra, os exercícios que adiciona e seus
 
 O GOAT não tem servidores próprios nem usa serviços de análise, publicidade ou relatórios de falhas. Não rastreia você em outros apps ou sites. Não acessa sua localização, contatos, câmera ou fotos. Não vende, aluga nem compartilha dados, porque não tem nenhum para compartilhar.
 
+## Saúde da Apple e Health Connect
+
+Se você ativar, o GOAT salva seus treinos lá e lê seu sono, seu peso e sua gordura corporal para mostrar no app. Esses dados ficam no seu celular. Nunca chegam a mim e nunca são usados para publicidade.
+
 ## Exportar e importar seus dados
 
-Exportar cria um arquivo no seu aparelho e abre o menu de compartilhar do sistema. Você decide para onde ele vai. Importar lê um arquivo que você escolhe no aparelho; nada é enviado.
+«Exportar como CSV» cria um arquivo no seu aparelho e abre o menu de compartilhar do sistema. Você decide para onde ele vai. «Importar do GOAT, Strong, Hevy ou Fitbod» lê um arquivo que você escolhe no aparelho; nada é enviado.
 
 ## Compartilhar uma imagem
 

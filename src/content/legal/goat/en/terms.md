@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service"
-updated: "Last updated: November 1, 2026"
+updated: "Last updated: November 13, 2026"
 ---
 
 These terms are an agreement between you and David Stanete (“I”, “me”), the developer of GOAT. By downloading or using GOAT, you agree to them. If you don’t agree, please don’t use the app.

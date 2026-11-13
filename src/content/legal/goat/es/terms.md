@@ -1,6 +1,6 @@
 ---
 title: "Condiciones del servicio"
-updated: "Última actualización: 1 de noviembre de 2026"
+updated: "Última actualización: 13 de noviembre de 2026"
 ---
 
 Estas condiciones son un acuerdo entre tú y David Stanete («yo»), el desarrollador de GOAT. Al descargar o usar GOAT, las aceptas. Si no estás de acuerdo, no uses la app.

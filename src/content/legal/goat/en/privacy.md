@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-updated: "Last updated: November 1, 2026"
+updated: "Last updated: November 13, 2026"
 ---
 
 GOAT is a free app made by David Stanete, an independent developer based in Spain (“I”, “me”). This policy explains what happens to your information when you use GOAT.
@@ -15,9 +15,13 @@ Your workouts and the sets you log, the exercises you add, and your settings (go
 
 GOAT does not run its own servers or use analytics, advertising or crash-reporting services. It does not track you across other apps or websites. It does not access your location, contacts, camera or photos. It does not sell, rent or share any data, because it has none to share.
 
+## Apple Health and Health Connect
+
+If you turn it on, GOAT saves your workouts there and reads your sleep, body weight and body fat to show them in the app. That data stays on your phone. It is never sent to me and never used for advertising.
+
 ## Exporting and importing your data
 
-Export my data creates a file on your device and opens the system share sheet. You decide where the file goes. Import data reads a file you pick on your device; nothing is uploaded.
+“Export as CSV” creates a file on your device and opens the system share sheet. You decide where the file goes. “Import from GOAT, Strong, Hevy or Fitbod” reads a file you pick on your device; nothing is uploaded.
 
 ## Sharing a picture
 
