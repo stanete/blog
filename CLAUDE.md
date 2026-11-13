@@ -1,5 +1,11 @@
 # CLAUDE.md
 
+@../apps/copy-guide.md
+
+## Copy: every word a person reads
+
+Before writing or changing any text people read (app strings, FAQ, notifications, store titles and images, the site, legal), read David's copy guide: `../apps/copy-guide.md` (the `stanete/apps` repo next to this one; online at https://github.com/stanete/apps/blob/main/copy-guide.md). It is the one source for all his apps. Follow it without being asked, and self-check against its list before showing David anything. A new copy rule from David goes into that guide, not here.
+
 ## Project Overview
 
 Astro Nano — a minimal, lightweight static blog and portfolio site built with Astro. No frontend framework dependencies (no React/Vue/Svelte). MIT licensed.
