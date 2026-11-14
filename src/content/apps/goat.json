@@ -1,12 +1,12 @@
 {
   "name": "GOAT",
   "date": "2026-11-07",
-  "screenshots": 7,
+  "screenshots": 9,
   "languages": {
     "en": {
       "language": "English",
       "tagline": "the ultimate gym tracker",
-      "pitch": "A gym and workout tracker. Log every set, and GOAT works out your progressive overload: what to lift next time, and when to take a deload week. It shows which muscles you’ve trained and which you’re skipping. The features of a paid gym tracker, free forever.",
+      "pitch": "A gym and workout tracker. Log every set, and GOAT works out your progressive overload: what to lift next time, and when to take a deload week. It shows which muscles you’ve trained and which you’re skipping. No plan needed: hit start and add exercises as you go. The features of a paid gym tracker, free forever.",
       "free": "GOAT is free, and always will be. No subscription, no account, no tracking.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
@@ -39,7 +39,7 @@
         },
         {
           "q": "How does GOAT pick what to lift next time?",
-          "a": "+1 rep on every set each workout. Reps go up to 12 (Muscle growth) or 6 (Strength), then the weight goes up and reps go back to 8 or 4. Change it in «Progressive overload» in «Settings»."
+          "a": "+1 rep on every set each workout («Gentle»: one set at a time). Reps go up to 12 (Muscle growth) or 6 (Strength), then the weight goes up and reps go back to 8 or 4. Change it in «Progressive overload» in «Settings»."
         },
         {
           "q": "Is GOAT really free?",
@@ -51,7 +51,15 @@
         },
         {
           "q": "Do warm-up sets count?",
-          "a": "No. Add them with ⋯, then «Add warm-up sets», before your first set. They show a W, don’t start the rest timer and are never saved."
+          "a": "No. Add them with ⋯, then «Add warm-up sets», before your first set. They show a W, don’t start the rest timer and never count toward sets, kg or PRs."
+        },
+        {
+          "q": "I’m injured. What do I do?",
+          "a": "Tap the muscle on the body and turn on «Injured» at the bottom of its page. GOAT stops adding weight to its exercises (reps can still go up), and weaker workouts don’t count as a drop. Turn it off once it heals."
+        },
+        {
+          "q": "I took weeks off. What happens?",
+          "a": "Nothing is lost. After 3 weeks without a muscle, GOAT starts its exercises about 10% lighter, then goes straight back to where you were. After 2 months or more: 20% lighter, then 5% more each workout. Your first workout back never counts as a drop."
         },
         {
           "q": "Can I change the rest time?",
@@ -122,7 +130,7 @@
     "es": {
       "language": "Español",
       "tagline": "la app de gym definitiva",
-      "pitch": "Una app para apuntar tus entrenos de gym. Apunta cada serie y GOAT calcula tu sobrecarga progresiva: qué levantar la próxima vez y cuándo toca semana de descarga. Te enseña qué músculos has entrenado y cuáles te saltas. Lo que hace una app de gym de pago, gratis para siempre.",
+      "pitch": "Una app para apuntar tus entrenos de gym. Apunta cada serie y GOAT calcula tu sobrecarga progresiva: qué levantar la próxima vez y cuándo toca semana de descarga. Te enseña qué músculos has entrenado y cuáles te saltas. Sin plan: dale a empezar y añade ejercicios sobre la marcha. Lo que hace una app de gym de pago, gratis para siempre.",
       "free": "GOAT es gratis, y siempre lo será. Sin suscripción, sin cuenta y sin rastreo.",
       "privacy": "Política de privacidad",
       "terms": "Condiciones del servicio",
@@ -155,7 +163,7 @@
         },
         {
           "q": "¿Cómo decide GOAT qué levantar la próxima vez?",
-          "a": "+1 rep en cada serie en cada entreno. Las reps suben hasta 12 (Hipertrofia) o 6 (Fuerza), luego sube el peso y las reps vuelven a 8 o 4. Cámbialo en «Sobrecarga progresiva» en «Ajustes»."
+          "a": "+1 rep en cada serie en cada entreno («Suave»: una serie cada vez). Las reps suben hasta 12 (Hipertrofia) o 6 (Fuerza), luego sube el peso y las reps vuelven a 8 o 4. Cámbialo en «Sobrecarga progresiva» en «Ajustes»."
         },
         {
           "q": "¿GOAT es gratis de verdad?",
@@ -167,7 +175,15 @@
         },
         {
           "q": "¿Cuentan las series de calentamiento?",
-          "a": "No. Añádelas con ⋯ y luego «Añadir calentamiento», antes de tu primera serie. Llevan una C, no inician el descanso y nunca se guardan."
+          "a": "No. Añádelas con ⋯ y luego «Añadir calentamiento», antes de tu primera serie. Llevan una C, no inician el descanso y nunca cuentan para series, kg ni PRs."
+        },
+        {
+          "q": "Estoy lesionado. ¿Qué hago?",
+          "a": "Toca el músculo en el cuerpo y activa «Lesionado» al final de su página. GOAT deja de subir el peso de sus ejercicios (las reps sí pueden subir) y los entrenos más flojos no cuentan como bajada. Desactívalo cuando se cure."
+        },
+        {
+          "q": "He estado semanas sin entrenar. ¿Qué pasa?",
+          "a": "No pierdes nada. Tras 3 semanas sin un músculo, GOAT retoma sus ejercicios un 10% más ligeros y luego vuelve directo a donde estabas. Tras 2 meses o más: un 20% más ligeros y luego un 5% más en cada entreno. Tu primer entreno a la vuelta nunca cuenta como bajada."
         },
         {
           "q": "¿Puedo cambiar el tiempo de descanso?",
@@ -238,7 +254,7 @@
     "pt": {
       "language": "Português",
       "tagline": "o app de treino definitivo",
-      "pitch": "Um app para registrar seus treinos na academia. Registre cada série e o GOAT calcula sua sobrecarga progressiva: o que levantar na próxima vez e quando fazer uma semana de deload. Ele mostra quais músculos você treinou e quais está pulando. O que um app de treino pago faz, grátis para sempre.",
+      "pitch": "Um app para registrar seus treinos na academia. Registre cada série e o GOAT calcula sua sobrecarga progressiva: o que levantar na próxima vez e quando fazer uma semana de deload. Ele mostra quais músculos você treinou e quais está pulando. Sem plano: toque em começar e adicione exercícios no caminho. O que um app de treino pago faz, grátis para sempre.",
       "free": "O GOAT é grátis, e sempre vai ser. Sem assinatura, sem conta, sem rastreamento.",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
@@ -271,7 +287,7 @@
         },
         {
           "q": "Como o GOAT decide a carga da próxima vez?",
-          "a": "+1 rep em cada série a cada treino. As reps sobem até 12 (Hipertrofia) ou 6 (Força), depois a carga sobe e as reps voltam para 8 ou 4. Mude em «Sobrecarga progressiva» nos «Ajustes»."
+          "a": "+1 rep em cada série a cada treino («Suave»: uma série de cada vez). As reps sobem até 12 (Hipertrofia) ou 6 (Força), depois a carga sobe e as reps voltam para 8 ou 4. Mude em «Sobrecarga progressiva» nos «Ajustes»."
         },
         {
           "q": "O GOAT é grátis mesmo?",
@@ -283,7 +299,15 @@
         },
         {
           "q": "As séries de aquecimento contam?",
-          "a": "Não. Adicione com ⋯ e depois «Adicionar aquecimento», antes da primeira série. Elas mostram um A, não iniciam o descanso e nunca são salvas."
+          "a": "Não. Adicione com ⋯ e depois «Adicionar aquecimento», antes da primeira série. Elas mostram um A, não iniciam o descanso e nunca contam para séries, kg ou PRs."
+        },
+        {
+          "q": "Estou lesionado. O que eu faço?",
+          "a": "Toque no músculo no corpo e ative «Lesionado» no fim da página dele. O GOAT para de subir a carga dos exercícios dele (as reps ainda podem subir) e treinos mais fracos não contam como queda. Desative quando sarar."
+        },
+        {
+          "q": "Fiquei semanas sem treinar. O que acontece?",
+          "a": "Você não perde nada. Depois de 3 semanas sem um músculo, o GOAT retoma os exercícios dele cerca de 10% mais leves e depois volta direto para onde você estava. Depois de 2 meses ou mais: 20% mais leves e depois 5% a mais a cada treino. O primeiro treino de volta nunca conta como queda."
         },
         {
           "q": "Posso mudar o tempo de descanso?",
