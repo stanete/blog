@@ -32,6 +32,9 @@ export function appMarkdown(app: App, lang: string, site: URL) {
     "",
     texts.free,
     "",
+    ...(texts.features?.length
+      ? [`## ${texts.featuresTitle ?? name}`, "", ...texts.features.map((feature) => `- ${feature}`), ""]
+      : []),
     ...(texts.faq ?? []).flatMap(({ q, a }) => [`## ${q}`, "", a, ""]),
     `## ${texts.beta}`,
     "",

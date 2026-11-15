@@ -28,6 +28,10 @@ const apps = defineCollection({
       // The page's description for search engines and link previews.
       description: z.string().optional(),
       free: z.string(),
+      // What the app does, one line each: the page's feature list for search
+      // engines (schema.org featureList) and AI assistants (its Markdown).
+      featuresTitle: z.string().optional(),
+      features: z.array(z.string()).optional(),
       privacy: z.string(),
       terms: z.string(),
       contact: z.string(),
