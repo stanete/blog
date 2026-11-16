@@ -46,11 +46,11 @@
         "getTestFlight": "Get TestFlight"
       },
       "android": {
-        "title": "The beta is by invitation",
-        "text": "Email me and say if you use iPhone or Android. I’ll add you and send you the link.",
+        "title": "On Android, the beta is by invitation",
+        "text": "Email me the address you use for Google Play. I’ll add you and send you the link.",
         "send": "Email me",
-        "subject": "GOAT beta",
-        "body": "Hi David, I’d like to try GOAT. My phone is: "
+        "subject": "GOAT beta on Android",
+        "body": "Hi David, I’d like to try GOAT on Android. The address I use for Google Play is: "
       },
       "description": "GOAT is the ultimate gym tracker, free forever with no ads: progressive overload, deload weeks, sets per muscle, and stats like 1RM and PRs.",
       "faqTitle": "Questions",
@@ -196,11 +196,11 @@
         "getTestFlight": "Descargar TestFlight"
       },
       "android": {
-        "title": "La beta es por invitación",
-        "text": "Escríbeme y dime si usas iPhone o Android. Te añado y te mando el enlace.",
+        "title": "En Android, la beta es por invitación",
+        "text": "Escríbeme con el correo que usas en Google Play. Te añado y te mando el enlace.",
         "send": "Escríbeme",
-        "subject": "Beta de GOAT",
-        "body": "Hola, David. Me gustaría probar GOAT. Mi móvil es: "
+        "subject": "Beta de GOAT en Android",
+        "body": "Hola, David. Me gustaría probar GOAT en Android. El correo que uso en Google Play es: "
       },
       "description": "GOAT es la app de gym definitiva, gratis para siempre y sin anuncios: sobrecarga progresiva, semanas de descarga, series por músculo y datos como 1RM y PRs.",
       "faqTitle": "Preguntas",
@@ -341,16 +341,16 @@
       "beta": "Teste o beta",
       "iphone": {
         "title": "O GOAT já pode ser testado no seu iPhone",
-        "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em Entrar no beta.",
+        "text": "Baixe o TestFlight, o app da Apple para testar apps antes do lançamento. Depois abra esta página no seu iPhone e toque em «Entrar no beta».",
         "join": "Entrar no beta",
         "getTestFlight": "Baixar o TestFlight"
       },
       "android": {
-        "title": "O beta é por convite",
-        "text": "Me mande um e-mail dizendo se você usa iPhone ou Android. Eu adiciono você e mando o link.",
+        "title": "No Android, o beta é só para convidados",
+        "text": "Me escreva com o e-mail que você usa no Google Play. Eu adiciono você e mando o link.",
         "send": "Mandar e-mail",
-        "subject": "Beta do GOAT",
-        "body": "Oi, David. Quero testar o GOAT. Meu celular é: "
+        "subject": "Beta do GOAT no Android",
+        "body": "Oi, David. Quero testar o GOAT no Android. O e-mail que uso no Google Play é: "
       },
       "description": "O GOAT é o app de treino definitivo, grátis para sempre e sem anúncios: sobrecarga progressiva, semanas de deload, séries por músculo e dados como 1RM e PRs.",
       "faqTitle": "Perguntas",
