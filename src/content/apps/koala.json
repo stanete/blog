@@ -15,13 +15,13 @@
       "contact": "Contact",
       "screenshot": "Koala, screenshot {n} of {total}",
       "shots": [
-        "One BJJ goal at a time: Home with today’s primary and secondary goals",
-        "Know if it’s working: where each goal stands, and what to try next class",
-        "What if they counter? A system: what you go for, and what you do instead, or one from «Ideas» for your belt",
+        "One BJJ goal at a time: today’s goals, with ✓ logged and «Add a note»",
+        "Chain your goals: a competition’s «Map», each goal with what leads to it",
+        "Pull it off, earn a koala: glass, sapphire, amethyst, topaz and opal",
+        "See if it’s working: every session of a goal, ✓ or ✕",
         "Get ready for a competition: the countdown and your weight goal",
-        "Sleep, next to your goals: your last 14 nights",
         "A timer for open mat: rounds and rest, with a bell",
-        "A goal shared as an image for your Story"
+        "A goal shared as a card for your Story"
       ],
       "beta": "Try the beta",
       "iphone": {
@@ -57,11 +57,11 @@
         },
         {
           "q": "Does Koala teach jiu-jitsu?",
-          "a": "No, that’s your coach’s job. Koala keeps track of what you’re working on. To start somewhere, «Ideas» has no-gi systems for each belt, without videos or explanations."
+          "a": "No, that’s your coach’s job. Koala keeps track of what you’re working on. To start somewhere, «Ideas» has ideas for each belt, like escapes and defending submissions, without videos or explanations."
         },
         {
           "q": "What else is in it?",
-          "a": "Reminders before and after class, widgets, your month in a calendar, systems that chain goals from a position, a round timer for open mat, your sleep from Apple Health or Health Connect, a countdown to a competition with an optional weight goal, and images to share a goal."
+          "a": "Reminders before and after class, widgets, your month in a calendar, a «Map» that links each goal to the next one, a round timer for open mat, your sleep from Apple Health or Health Connect, a countdown to a competition with an optional weight goal, and images to share a goal."
         },
         {
           "q": "Which phones and languages?",
@@ -84,13 +84,13 @@
       "contact": "Contacto",
       "screenshot": "Koala, captura {n} de {total}",
       "shots": [
-        "Objetivos de BJJ de uno en uno: el inicio con tus objetivos principal y secundario",
-        "¿Te está funcionando?: cómo va cada objetivo y qué probar en la próxima clase",
-        "¿Y si te lo defienden? Un sistema: a qué vas y qué haces si te lo defienden, o uno de «Ideas» para tu cinturón",
+        "Objetivos de BJJ, de uno en uno: los objetivos de hoy, con ✓ y «Añadir una nota»",
+        "Encadena tus objetivos: el «Mapa» de una competición, cada objetivo con lo que lleva a él",
+        "Consíguelo y gana un koala: cristal, zafiro, amatista, topacio y ópalo",
+        "Mira si te funciona: cada sesión de un objetivo, ✓ o ✕",
         "Prepárate para competir: la cuenta atrás y tu objetivo de peso",
-        "El sueño, junto a tus objetivos: tus últimas 14 noches",
         "Un timer para el open mat: rondas y descansos, con campana",
-        "Un objetivo compartido como imagen para tu historia"
+        "Un objetivo compartido como tarjeta para tus historias"
       ],
       "beta": "Prueba la beta",
       "iphone": {
@@ -126,11 +126,11 @@
         },
         {
           "q": "¿Koala enseña jiu-jitsu?",
-          "a": "No, eso es cosa de tu profesor. Koala lleva la cuenta de lo que estás trabajando. Para empezar por algún sitio, en «Ideas» hay sistemas de no-gi para cada cinturón, sin vídeos ni explicaciones."
+          "a": "No, eso es cosa de tu profesor. Koala lleva la cuenta de lo que estás trabajando. Para empezar por algún sitio, en «Ideas» hay ideas para cada cinturón, como escapes y defender finalizaciones, sin vídeos ni explicaciones."
         },
         {
           "q": "¿Qué más tiene?",
-          "a": "Recordatorios antes y después de clase, widgets, tu mes en un calendario, sistemas que encadenan objetivos desde una posición, un timer de rondas para el open mat, tu sueño desde Apple Salud o Health Connect, una cuenta atrás para una competición con un objetivo de peso si quieres, e imágenes para compartir un objetivo."
+          "a": "Recordatorios antes y después de clase, widgets, tu mes en un calendario, un «Mapa» que une cada objetivo con el siguiente, un timer de rondas para el open mat, tu sueño desde Apple Salud o Health Connect, una cuenta atrás para una competición con un objetivo de peso si quieres, e imágenes para compartir un objetivo."
         },
         {
           "q": "¿En qué móviles e idiomas?",
@@ -153,13 +153,13 @@
       "contact": "Contato",
       "screenshot": "Koala, captura {n} de {total}",
       "shots": [
-        "Uma meta de BJJ por vez: o início com suas metas principal e secundária",
-        "Saiba se está funcionando: como vai cada meta e o que tentar no próximo treino",
-        "E se o parceiro defender? Um sistema: o que você busca e o que faz no lugar, ou um de «Ideias» para a sua faixa",
-        "Prepare-se para um campeonato: a contagem regressiva e sua meta de peso",
-        "O sono, ao lado das suas metas: suas últimas 14 noites",
+        "Uma meta de BJJ de cada vez: as metas de hoje, com ✓ e «Adicionar uma nota»",
+        "Encadeie suas metas: o «Mapa» de um campeonato, cada meta com o que leva a ela",
+        "Conseguiu? Ganhe um coala: vidro, safira, ametista, topázio e opala",
+        "Veja se está funcionando: cada treino de uma meta, ✓ ou ✕",
+        "Prepare-se para competir: a contagem regressiva e sua meta de peso",
         "Um timer para o open mat: rounds e descanso, com sino",
-        "Uma meta compartilhada como imagem para o seu story"
+        "Uma meta compartilhada como card para os seus stories"
       ],
       "beta": "Teste o beta",
       "iphone": {
@@ -195,11 +195,11 @@
         },
         {
           "q": "O Koala ensina jiu-jitsu?",
-          "a": "Não, isso é com o seu professor. O Koala acompanha o que você está treinando. Para começar por algum lugar, em «Ideias» tem sistemas de no-gi para cada faixa, sem vídeos nem explicações."
+          "a": "Não, isso é com o seu professor. O Koala acompanha o que você está treinando. Para começar por algum lugar, em «Ideias» tem ideias para cada faixa, como escapes e defender finalizações, sem vídeos nem explicações."
         },
         {
           "q": "O que mais tem?",
-          "a": "Lembretes antes e depois do treino, widgets, seu mês num calendário, sistemas que encadeiam metas a partir de uma posição, um timer de rounds para o open mat, seu sono do app Saúde ou do Health Connect, uma contagem regressiva para um campeonato com uma meta de peso opcional, e imagens para compartilhar uma meta."
+          "a": "Lembretes antes e depois do treino, widgets, seu mês num calendário, um «Mapa» que liga cada meta à próxima, um timer de rounds para o open mat, seu sono do app Saúde ou do Health Connect, uma contagem regressiva para um campeonato com uma meta de peso opcional, e imagens para compartilhar uma meta."
         },
         {
           "q": "Em quais celulares e idiomas?",
