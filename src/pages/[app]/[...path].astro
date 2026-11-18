@@ -129,7 +129,9 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
     <Container>
       {/* A title and a few lines, as on a post: the pictures below do the selling. */}
       {/* The koala breathes, sleeps from 22:00 to 7:00 by the visitor's clock, and jumps
-          when clicked, as in the app. Decoration only, so screen readers skip it. */}
+          when clicked, as in the app. Skia draws it live, blinking and following the pointer
+          (koala-skia.js); the picture shows until it does. Decoration only, so screen
+          readers skip it. */}
       {app.id === "koala" ? (
       <Fragment>
       <div class="animate -ml-3">
@@ -138,6 +140,7 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
             <div class="koala-droop">
               <div class="koala-breath">
                 <img src={`${assets}/icon.png`} alt="" width="96" height="96" />
+                <canvas></canvas>
                 <span class="lid lid-left"></span>
                 <span class="lid lid-right"></span>
               </div>
@@ -148,6 +151,7 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
           </div>
         </div>
       </div>
+      <script is:inline src={`${assets}/koala-skia.js`} defer></script>
       <script is:inline>
         (() => {
           const koala = document.querySelector(".koala");
@@ -374,6 +378,18 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   }
   .koala img {
     display: block;
+  }
+  /* Once Skia has drawn the koala (koala-skia.js), the canvas takes the picture's place
+     and draws the eyes itself. */
+  .koala canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .koala.skia img,
+  .koala.skia .lid {
+    visibility: hidden;
   }
   .koala-jump,
   .koala-droop,
