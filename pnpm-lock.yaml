@@ -68,6 +68,10 @@ importers:
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
+    devDependencies:
+      esbuild:
+        specifier: 0.24.0
+        version: 0.24.0
 
 packages:
 

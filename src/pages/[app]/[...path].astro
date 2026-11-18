@@ -129,20 +129,16 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
     <Container>
       {/* A title and a few lines, as on a post: the pictures below do the selling. */}
       {/* The koala breathes, sleeps from 22:00 to 7:00 by the visitor's clock, and jumps
-          when clicked, as in the app. Skia draws it live, blinking and following the pointer
-          (koala-skia.js); the picture shows until it does. Decoration only, so screen
-          readers skip it. */}
+          when clicked. Once Skia has loaded, the app's own koala is drawn over the icon and
+          moves as on «Home» (scripts/koala-skia). Decoration only, so screen readers skip it. */}
       {app.id === "koala" ? (
       <Fragment>
       <div class="animate -ml-3">
-        <div class="koala" aria-hidden="true">
+        <div class="koala" aria-hidden="true" data-skia={`${assets}/skia/`}>
           <div class="koala-jump">
             <div class="koala-droop">
               <div class="koala-breath">
                 <img src={`${assets}/icon.png`} alt="" width="96" height="96" />
-                <canvas></canvas>
-                <span class="lid lid-left"></span>
-                <span class="lid lid-right"></span>
               </div>
             </div>
             <span class="z text-stone-400">z</span>
@@ -151,7 +147,6 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
           </div>
         </div>
       </div>
-      <script is:inline src={`${assets}/koala-skia.js`} defer></script>
       <script is:inline>
         (() => {
           const koala = document.querySelector(".koala");
@@ -165,6 +160,8 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
           // Nobody jumps in their sleep: it wakes for the jump, then nods off again.
           const jump = koala.querySelector(".koala-jump");
           koala.addEventListener("click", () => {
+            // The Skia koala pokes itself instead.
+            if (koala.classList.contains("skia")) return;
             if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
             koala.classList.remove("jumping");
             void jump.offsetWidth;
@@ -173,6 +170,14 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
           jump.addEventListener("animationend", (event) => {
             if (event.target === jump) koala.classList.remove("jumping");
           });
+          // Skia (8 MB) loads after the page, so it never slows the page down.
+          const skia = () => {
+            const script = document.createElement("script");
+            script.src = `${koala.dataset.skia}main.js`;
+            document.head.appendChild(script);
+          };
+          if (document.readyState === "complete") skia();
+          else addEventListener("load", skia, { once: true });
         })();
       </script>
       </Fragment>
@@ -367,7 +372,7 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   .faq details:last-child[open] p {
     padding-bottom: 1rem;
   }
-  /* The koala, as in the app. Its eyelids are placed in % of the picture. */
+  /* The koala, as in the app. */
   .koala {
     position: relative;
     width: 96px;
@@ -378,18 +383,6 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   }
   .koala img {
     display: block;
-  }
-  /* Once Skia has drawn the koala (koala-skia.js), the canvas takes the picture's place
-     and draws the eyes itself. */
-  .koala canvas {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .koala.skia img,
-  .koala.skia .lid {
-    visibility: hidden;
   }
   .koala-jump,
   .koala-droop,
@@ -420,42 +413,13 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
       transform: scale(1.025);
     }
   }
-  .lid {
+  /* The Skia koala sits over the icon, which steps aside once it is drawn. */
+  .koala-breath :global(.koala-skia) {
     position: absolute;
-    border-radius: 50%;
-    overflow: hidden;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 0.15s ease-in-out;
+    inset: 0;
   }
-  .koala.asleep:not(.jumping) .lid {
-    transform: scaleY(1);
-    transition-duration: 0.7s;
-  }
-  .lid-left {
-    left: 44.5%;
-    top: 51%;
-    width: 10%;
-    height: 12.5%;
-    background: #c4c5c7;
-  }
-  .lid-right {
-    left: 76%;
-    top: 54.5%;
-    width: 4.4%;
-    height: 10%;
-    background: #d3d4d6;
-  }
-  /* The line of a closed eye, curved like a smile. */
-  .lid::after {
-    content: "";
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    bottom: 22%;
-    height: 45%;
-    border-bottom: 1.5px solid #2c2c2e;
-    border-radius: 0 0 999px 999px;
+  .koala.skia img {
+    visibility: hidden;
   }
   .z {
     position: absolute;
@@ -520,8 +484,7 @@ const quiet = "bg-stone-100 text-black hover:bg-stone-200 dark:bg-white/10 dark:
   }
   /* With reduced motion it is still: asleep, it only has its eyes closed. */
   @media (prefers-reduced-motion: reduce) {
-    .koala *,
-    .koala *::after {
+    .koala * {
       animation: none !important;
       transition: none !important;
     }
